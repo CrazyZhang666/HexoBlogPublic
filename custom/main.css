@@ -1,0 +1,204 @@
+/* 鼠标样式 */
+body {
+    cursor: url(img/mouse/default.cur),
+    default;
+}
+
+a, i, img, span {
+    cursor: url(img/mouse/pointer.cur),
+    default;
+}
+
+/*网格背景*/
+body {
+    background-image: linear-gradient(90deg, #EBEEF5 1px, transparent 0px), linear-gradient(0deg, #EBEEF5 1px, transparent 0px);
+    background-size: 16px 16px;
+    background-attachment: fixed;
+}
+
+/* span 小标签*/
+span.inline-tag {
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 90%;
+    font-weight: 400;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .1rem;
+    border-radius: 6px;
+    background-color: var(--Color)
+}
+
+p.red, span.red {
+    --Color: rgb(233, 30, 100);
+    --ColorA: rgba(233, 30, 100, 0.2);
+}
+
+p.green, span.green {
+    --Color: rgb(139, 195, 74);
+    --ColorA: rgba(139, 195, 74, 0.2);
+}
+
+p.blue, span.blue {
+    --Color: rgb(3, 169, 244);
+    --ColorA: rgba(3, 169, 244, 0.2);
+}
+
+p.yellow, span.yellow {
+    --Color: rgb(255, 193, 7);
+    --ColorA: rgba(255, 193, 7, 0.2);
+}
+
+p.grey, span.grey {
+    --Color: rgb(76, 76, 76);
+    --ColorA: rgba(76, 76, 76, 0.2);
+}
+
+/* 滚动条 */
+::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #49b1f5;
+    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.4) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.4) 50%, rgba(255, 255, 255, 0.4) 75%, transparent 75%, transparent);
+    border-radius: 2em;
+}
+
+::-webkit-scrollbar-corner {
+    background-color: transparent;
+}
+
+::-moz-selection {
+    color: #fff;
+    background-color: #e58a8a;
+}
+
+/* Twikoo 评论框高度 */
+#twikoo .el-textarea__inner {
+    min-height: 180px !important;
+}
+
+#twikoo .el-textarea__inner:focus {
+    background-image: none !important;
+}
+
+#twikoo .tk-comment {
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #DBDCDC;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+/* 头图透明 */
+#page-header {
+    background: transparent !important;
+}
+
+/* 首页文章卡片 */
+#recent-posts > .recent-post-item {
+    background: rgba(255, 255, 255, 0.9);
+}
+
+/* 首页侧栏卡片 */
+.card-widget {
+    background: rgba(255, 255, 255, 0.9) !important;
+}
+
+/* 文章页面正文背景 */
+div#post {
+    background: rgba(255, 255, 255, 0.9);
+}
+
+/* 分页页面 */
+div#page {
+    background: rgba(255, 255, 255, 0.9);
+}
+
+/* 归档页面 */
+div#archive {
+    background: rgba(255, 255, 255, 0.9);
+}
+
+/* 标签页面 */
+div#tag {
+    background: rgba(255, 255, 255, 0.9);
+}
+
+/* 分类页面 */
+div#category {
+    background: rgba(255, 255, 255, 0.9);
+}
+
+/* 文字颜色 */
+.copyright {
+    color: black;
+}
+
+/* 页脚透明 */
+#footer, #footer:before {
+    background: transparent !important;
+}
+
+/*标签整体样式*/
+.github-badge {
+    margin-left: 5px;
+    display: inline-block;
+    border-radius: 4px;
+    text-shadow: none;
+    color: #fff;
+    line-height: 15px;
+    background-color: #abbac3;
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+/* 超链接下划线隐藏 */
+.github-badge a {
+    color: #fff !important;
+    text-decoration: none !important;
+}
+
+/* 标签左侧样式 */
+.github-badge .badge-subject {
+    background-color: #4d4d4d;
+    padding: 4px 4px 4px 6px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+/* 标签右侧样式 */
+.github-badge .badge-value {
+    padding: 4px 6px 4px 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+/* 标签背景色 */
+.github-badge .bg-blue {
+    background-color: #007ec6;
+}
+
+.github-badge .bg-green {
+    background-color: #4dc820;
+}
+
+.github-badge .bg-orange {
+    background-color: #ffa500;
+}
+
+.github-badge .bg-grey {
+    background-color: #c4269e;
+}
+
+.github-badge .bg-red {
+    background-color: #e05d44;
+}
+
+.github-badge .bg-violet {
+    background-color: #8833d7;
+}
