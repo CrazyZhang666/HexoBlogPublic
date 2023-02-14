@@ -1,0 +1,1355 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"><title>STAT代码 - 线上模式统计数据 | GTA5线上小助手</title><meta name="author" content="CrazyZhang"><meta name="copyright" content="CrazyZhang"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="GTA5线上模式统计数据STAT代码，收集于互联网">
+<meta property="og:type" content="article">
+<meta property="og:title" content="STAT代码 - 线上模式统计数据">
+<meta property="og:url" content="https://crazyzhang.cn/posts/b2a6/">
+<meta property="og:site_name" content="GTA5线上小助手">
+<meta property="og:description" content="GTA5线上模式统计数据STAT代码，收集于互联网">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://pic.rmb.bdstatic.com/bjh/0bf50d6c058ecd390d2b62ddb941ab8c.jpeg">
+<meta property="article:published_time" content="2021-08-06T09:32:10.000Z">
+<meta property="article:modified_time" content="2022-02-08T10:30:00.000Z">
+<meta property="article:author" content="CrazyZhang">
+<meta property="article:tag" content="GTA5教程">
+<meta property="article:tag" content="STAT代码">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://pic.rmb.bdstatic.com/bjh/0bf50d6c058ecd390d2b62ddb941ab8c.jpeg"><link rel="shortcut icon" href="/assets/img/favicon.ico"><link rel="canonical" href="https://crazyzhang.cn/posts/b2a6/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//www.google-analytics.com" crossorigin=""/><link rel="preconnect" href="//hm.baidu.com"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://unpkg.com/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://unpkg.com/node-snackbar/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://unpkg.com/@fancyapps/ui/dist/fancybox.css" media="print" onload="this.media='all'"><script async="async" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><script>(adsbygoogle = window.adsbygoogle || []).push({
+  google_ad_client: 'ca-pub-4497596037058479',
+  enable_page_level_ads: 'true'
+});</script><script>var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?ee70df6b80156a317846c7a20764cff5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script><script async="async" src="https://www.googletagmanager.com/gtag/js?id=UA-144738275-1"></script><script>window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-144738275-1');
+</script><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  translate: undefined,
+  noticeOutdate: {"limitDay":90,"position":"top","messagePrev":"距离上次更新已经过了","messageNext":"天，文中部分内容可能已经过时，如有疑问，请在下方留言"},
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":false,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: true,
+    post: true
+  },
+  runtime: '天',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"limitCount":50,"languages":{"author":"作者: CrazyZhang","link":"链接: ","source":"来源: GTA5线上小助手","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"}},
+  lightbox: 'fancybox',
+  Snackbar: {"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#49b1f5","bgDark":"#1f1f1f","position":"bottom-center"},
+  source: {
+    justifiedGallery: {
+      js: 'https://unpkg.com/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://unpkg.com/flickr-justified-gallery/dist/fjGallery.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  }
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'STAT代码 - 线上模式统计数据',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2022-02-08 18:30:00'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+    win.getCSS = url => new Promise((resolve, reject) => {
+      const link = document.createElement('link')
+      link.rel = 'stylesheet'
+      link.href = url
+      link.onload = () => resolve()
+      link.onerror = () => reject()
+      document.head.appendChild(link)
+    })
+  
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><link rel="stylesheet" href="/assets/main.css"><script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js?id=JiUAa6Ny9OXmHN39&ck=JiUAa6Ny9OXmHN39"></script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4497596037058479" crossorigin="anonymous"></script><meta name="generator" content="Hexo 6.3.0"></head><body><link rel="stylesheet" href="https://unpkg.com/pace-js/themes/blue/pace-theme-minimal.css"/><script src="https://unpkg.com/pace-js/pace.min.js"></script><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/assets/img/avatar.png" onerror="onerror=null;src='/assets/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">31</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">29</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">1</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/download/"><i class="fa-fw fas fa-download"></i><span> 下载</span></a></div><div class="menus_item"><a class="site-page" href="/runtime/"><i class="fa-fw fas fa-gear"></i><span> 运行库</span></a></div><div class="menus_item"><a class="site-page" href="/help/"><i class="fa-fw fas fa-question-circle"></i><span> 帮助</span></a></div><div class="menus_item"><a class="site-page" href="/comments/"><i class="fa-fw fas fa-comment-dots"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-user"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="not-top-img" id="page-header"><nav id="nav"><span id="blog-info"><a href="/" title="GTA5线上小助手"><span class="site-name">GTA5线上小助手</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/download/"><i class="fa-fw fas fa-download"></i><span> 下载</span></a></div><div class="menus_item"><a class="site-page" href="/runtime/"><i class="fa-fw fas fa-gear"></i><span> 运行库</span></a></div><div class="menus_item"><a class="site-page" href="/help/"><i class="fa-fw fas fa-question-circle"></i><span> 帮助</span></a></div><div class="menus_item"><a class="site-page" href="/comments/"><i class="fa-fw fas fa-comment-dots"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-user"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fas fa-bars fa-fw"></i></a></div></div></nav></header><main class="layout" id="content-inner"><div id="post"><div id="post-info"><h1 class="post-title">STAT代码 - 线上模式统计数据</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2021-08-06T09:32:10.000Z" title="发表于 2021-08-06 17:32:10">2021-08-06</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-02-08T10:30:00.000Z" title="更新于 2022-02-08 18:30:00">2022-02-08</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/gta5/">gta5</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">1.3k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>4分钟</span></span><span class="post-meta-separator">|</span><span id="" data-flag-title="STAT代码 - 线上模式统计数据"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="twikoo_visitors"><i class="fa-solid fa-spinner fa-spin"></i></span></span><span class="post-meta-separator">|</span><span class="post-meta-commentcount"><i class="far fa-comments fa-fw post-meta-icon"></i><span class="post-meta-label">评论数:</span><a href="/posts/b2a6/#post-comment"><span id="twikoo-count"><i class="fa-solid fa-spinner fa-spin"></i></span></a></span></div></div></div><article class="post-content" id="article-container"><!-- GTA5线上小助手 谷歌广告 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4497596037058479"
+     data-ad-slot="9703475295"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<h1 id="提示"><a href="#提示" class="headerlink" title="提示"></a>提示</h1><blockquote>
+<p>如果是 <mark class="hl-label orange">MP0_</mark>  开头的代表是角色1，如果是角色2则改成 <mark class="hl-label orange">MP1_</mark> </p>
+</blockquote>
+<h1 id="职业生涯"><a href="#职业生涯" class="headerlink" title="职业生涯"></a>职业生涯</h1><table>
+<thead>
+<tr>
+<th align="left">名称</th>
+<th align="left">代码</th>
+<th align="left">类型</th>
+<th align="left">备注</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">全球声望值排名</td>
+<td align="left">MPPLY_GLOBALXP</td>
+<td align="left">INT32</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">总收入</td>
+<td align="left">MPPLY_TOTAL_EVC</td>
+<td align="left">INT64</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">总花费</td>
+<td align="left">MPPLY_TOTAL_SVC</td>
+<td align="left">INT64</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">杀死的玩家总数</td>
+<td align="left">MPPLY_KILLS_PLAYERS</td>
+<td align="left">INT32</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">被其他玩家杀死的总次数</td>
+<td align="left">MPPLY_DEATHS_PLAYER</td>
+<td align="left">INT32</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">玩家对战击杀&#x2F;死亡比</td>
+<td align="left">MPPLY_KILL_DEATH_RATIO</td>
+<td align="left">FLOAT</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">行走距离</td>
+<td align="left">MPPLY_CHAR_DIST_TRAVELLED</td>
+<td align="left">FLOAT</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">最喜爱的无线电台</td>
+<td align="left">MPPLY_MOST_FAVORITE_STATION</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">GTA在线模式中花费的时间</td>
+<td align="left">MP_PLAYING_TIME</td>
+<td align="left">INT32</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">以第一人称视角进行游戏的时间</td>
+<td align="left">MP_FIRST_PERSON_CAM_TIME</td>
+<td align="left">INT32</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">死斗游戏中花费的时间</td>
+<td align="left">MPPLY_TOTAL_TIME_SPENT_DEATHMAT</td>
+<td align="left">INT32</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">竞速中花费的时间</td>
+<td align="left">MPPLY_TOTAL_TIME_SPENT_RACES</td>
+<td align="left">INT32</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">制作器中花费的时间</td>
+<td align="left">MPPLY_TOTAL_TIME_MISSION_CREATO</td>
+<td align="left">INT32</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">死斗游戏发布次数</td>
+<td align="left">MPPLY_AWD_FM_CR_DM_MADE</td>
+<td align="left">INT32</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">竞速发布次数</td>
+<td align="left">MPPLY_AWD_FM_CR_RACES_MADE</td>
+<td align="left">INT32</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">夺取发布次数</td>
+<td align="left">MPPLY_NUM_CAPTURES_CREATED</td>
+<td align="left">INT32</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">团队生存游戏发布次数</td>
+<td align="left">MPPLY_LTS_CREATED</td>
+<td align="left">INT32</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">他人游玩您发布的内容的次数</td>
+<td align="left">MPPLY_AWD_FM_CR_PLAYED_BY_PEEP</td>
+<td align="left">INT32</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">您发布的内容所获好评数</td>
+<td align="left">MPPLY_FM_MISSION_LIKES</td>
+<td align="left">INT32</td>
+<td align="left"></td>
+</tr>
+</tbody></table>
+<h1 id="技能"><a href="#技能" class="headerlink" title="技能"></a>技能</h1><table>
+<thead>
+<tr>
+<th align="left">名称</th>
+<th align="left">代码</th>
+<th align="left">类型</th>
+<th align="left">备注</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">体力</td>
+<td align="left">MP0_SCRIPT_INCREASE_STAM</td>
+<td align="left">INT32</td>
+<td align="left">0~100</td>
+</tr>
+<tr>
+<td align="left">射击技能</td>
+<td align="left">MP0_SCRIPT_INCREASE_SHO</td>
+<td align="left">INT32</td>
+<td align="left">0~100</td>
+</tr>
+<tr>
+<td align="left">力量</td>
+<td align="left">MP0_SCRIPT_INCREASE_STRN</td>
+<td align="left">INT32</td>
+<td align="left">0~100</td>
+</tr>
+<tr>
+<td align="left">潜行</td>
+<td align="left">MP0_SCRIPT_INCREASE_STL</td>
+<td align="left">INT32</td>
+<td align="left">0~100</td>
+</tr>
+<tr>
+<td align="left">飞行技能</td>
+<td align="left">MP0_SCRIPT_INCREASE_FLY</td>
+<td align="left">INT32</td>
+<td align="left">0~100</td>
+</tr>
+<tr>
+<td align="left">驾驶技能</td>
+<td align="left">MP0_SCRIPT_INCREASE_DRIV</td>
+<td align="left">INT32</td>
+<td align="left">0~100</td>
+</tr>
+<tr>
+<td align="left">肺活量</td>
+<td align="left">MP0_SCRIPT_INCREASE_LUNG</td>
+<td align="left">INT32</td>
+<td align="left">0~100</td>
+</tr>
+<tr>
+<td align="left">精神状态</td>
+<td align="left">NULL</td>
+<td align="left">INT32</td>
+<td align="left">0~100</td>
+</tr>
+</tbody></table>
+<h1 id="通用"><a href="#通用" class="headerlink" title="通用"></a>通用</h1><table>
+<thead>
+<tr>
+<th align="left">名称</th>
+<th align="left">代码</th>
+<th align="left">类型</th>
+<th align="left">备注</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">第三人称视角游戏时间</td>
+<td align="left">MP0_TOTAL_PLAYING_TIME</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">制作的角色</td>
+<td align="left">MP0_CHAR_DATE_CREATED</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">最后一次升级</td>
+<td align="left">MP0_CHAR_DATE_RANKUP</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">持续时间最长单人战局</td>
+<td align="left">MP0_LONGEST_PLAYING_TIME</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">每场战局平均用时</td>
+<td align="left">MP0_AVERAGE_TIME_PER_SESSON</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">死亡总数</td>
+<td align="left">MP0_DEATHS</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">爆炸死亡数</td>
+<td align="left">MP0_DIED_IN_EXPLOSION</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">坠落死亡数</td>
+<td align="left">MP0_DIED_IN_FALL</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">火烧死亡数</td>
+<td align="left">MP0_DIED_IN_FIRE</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">撞死次数</td>
+<td align="left">MP0_DIED_IN_ROAD</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">溺水死亡数</td>
+<td align="left">MP0_DIED_IN_DROWNING</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">游泳时间</td>
+<td align="left">MP0_TIME_SWIMMING</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">游泳距离</td>
+<td align="left">MP0_DIST_SWIMMING</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">潜水时间</td>
+<td align="left">MP0_TIME_UNDERWATER</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">步行时间</td>
+<td align="left">MP0_TIME_WALKING</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">步行距离</td>
+<td align="left">MP0_DIST_WALKING</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">跑步距离</td>
+<td align="left">MP0_DIST_RUNNING</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">坠落存活的最高高度</td>
+<td align="left">MP0_LONGEST_SURVIVED_FREEFALL</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">掩体躲藏时间</td>
+<td align="left">MP0_TIME_IN_COVER</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">拍摄照片数</td>
+<td align="left">MP0_NO_PHOTOS_TAKEN</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">私人艳舞次数</td>
+<td align="left">MP0_LAP_DANCED_BOUGHT</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">买春次数</td>
+<td align="left">MP0_PROSTITUTES_FREQUENTED</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">对其他人施加的悬赏</td>
+<td align="left">MP0_BOUNTPLACED</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">对您施加的悬赏</td>
+<td align="left">MP0_BOUNTSONU</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">达到的最高生存战波数</td>
+<td align="left">MP0_HORDELVL</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">摩托帮贡献值</td>
+<td align="left">MP0_MC_CONTRIBUTION_POINTS</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+</tbody></table>
+<h1 id="犯罪"><a href="#犯罪" class="headerlink" title="犯罪"></a>犯罪</h1><table>
+<thead>
+<tr>
+<th align="left">名称</th>
+<th align="left">代码</th>
+<th align="left">类型</th>
+<th align="left">备注</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">击杀警察数</td>
+<td align="left">MP0_KILLS_COP</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">击杀国安局人员数</td>
+<td align="left">MP0_KILLS_SWAT</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">被通缉次数</td>
+<td align="left">MP0_NO_TIMES_WANTED_LEVEL</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">已获得通缉星数</td>
+<td align="left">MP0_STARS_ATTAINED</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">消除的通缉星数</td>
+<td align="left">MP0_STARS_EVADED</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">被通缉持续时间</td>
+<td align="left">MP0_TOTAL_CHASE_TIME</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">上一次通缉等级持续时间</td>
+<td align="left">MP0_LAST_CHASE_TIME</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">最长通缉等级持续时间</td>
+<td align="left">MP0_LONGEST_CHASE_TIME</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">五星通缉等级持续时间</td>
+<td align="left">MP0_TOTAL_TIME_MAX_STARS</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">作为车手驾车射击击杀数</td>
+<td align="left">MP0_DB_KILLS</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">作为乘客驾车射击击杀数</td>
+<td align="left">MP0_PASS_DB_KILLS</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">射爆轮胎数</td>
+<td align="left">MP0_TIRES_POPPED_BY_GUNSHOT</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">载具击杀数</td>
+<td align="left">MP0_HIGHEST_SKITTLES</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">盗窃车辆数</td>
+<td align="left">MP0_NUMBER_STOLEN_CARS</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">盗窃摩托数</td>
+<td align="left">MP0_NUMBER_STOLEN_BIKES</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">盗窃直升机数</td>
+<td align="left">MP0_NUMBER_STOLEN_HELIS</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">盗窃飞机数</td>
+<td align="left">MP0_NUMBER_STOLEN_PLANES</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">盗窃船只数</td>
+<td align="left">MP0_NUMBER_STOLEN_BOATS</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">盗窃沙滩车数</td>
+<td align="left">MP0_NUMBER_STOLEN_QUADBIKES</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">盗窃自行车数</td>
+<td align="left">MP0_NUMBER_STOLEN_BICYCLES</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">盗窃警用载具数</td>
+<td align="left">MP0_NUMBER_STOLEN_COP_VEHICLE</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">抢劫商店次数</td>
+<td align="left">MP0_TOTAL_NO_SHOPS_HELD_UP</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+</tbody></table>
+<h1 id="犯罪-1"><a href="#犯罪-1" class="headerlink" title="犯罪"></a>犯罪</h1><table>
+<thead>
+<tr>
+<th align="left">名称</th>
+<th align="left">代码</th>
+<th align="left">类型</th>
+<th align="left">备注</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">最喜欢的摩托车</td>
+<td align="left">MP0_FAVOUTFITBIKETYPEALLTIME</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">最高液压跳跃高度</td>
+<td align="left">MP0_LOW_HYDRAULIC_JUMP</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">驾车时间</td>
+<td align="left">MP0_TIME_DRIVING_CAR</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">汽车行驶距离</td>
+<td align="left">MP0_DIST_CAR</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">摩托车骑行时间</td>
+<td align="left">MP0_TIME_DRIVING_BIKE</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">摩托车骑行距离</td>
+<td align="left">MP0_DIST_BIKE</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">直升机飞行时间</td>
+<td align="left">MP0_TIME_DRIVING_HELI</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">直升机飞行距离</td>
+<td align="left">MP0_DIST_HELI</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">飞机飞行时间</td>
+<td align="left">MP0_TIME_DRIVING_PLANE</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">飞机飞行距离</td>
+<td align="left">MP0_DIST_PLANE</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">船只航行时间</td>
+<td align="left">MP0_TIME_DRIVING_BOAT</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">船只航行距离</td>
+<td align="left">MP0_DIST_BOAT</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">沙滩车驾驶时间</td>
+<td align="left">MP0_TIME_DRIVING_QUADBIKE</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">沙滩车驾驶距离</td>
+<td align="left">MP0_DIST_QUADBIKE</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">自行车骑行时间</td>
+<td align="left">MP0_TIME_DRIVING_BICYCLE</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">自行车骑行距离</td>
+<td align="left">MP0_DIST_BICYCLE</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">驾驶陆上载具达到的最高速度</td>
+<td align="left">MP0_FASTEST_SPEED</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">驾驶过最快的陆上载具</td>
+<td align="left">MP0_TOP_SPEED_CAR</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">最长急刹翘尾距离</td>
+<td align="left">MP0_LONGEST_STOPPIE_DIST</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">最长翘轮行驶距离</td>
+<td align="left">MP0_LONGEST_WHEELIE_DIST</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">最长无碰撞行驶距离</td>
+<td align="left">MP0_LONGEST_DRIVE_NOCRASH</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">撞车次数</td>
+<td align="left">MP0_NUMBER_CRASHES_CARS</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">摩托车撞车次数</td>
+<td align="left">MP0_NUMBER_CRASHES_BIKES</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">沙滩车撞车次数</td>
+<td align="left">MP0_NUMBER_CRASHES_QUADBIKES</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">跳离移动载具次数</td>
+<td align="left">MP0_BAILED_FROM_VEHICLE</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">飞车最远距离</td>
+<td align="left">MP0_FARTHEST_JUMP_DIST</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">飞车最高高度</td>
+<td align="left">MP0_HIGHEST_JUMP_REACHED</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">单次飞车最大翻转数</td>
+<td align="left">MP0_MOST_FLIPS_IN_ONE_JUMP</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">单次飞车最大旋转数</td>
+<td align="left">MP0_MOST_SPINS_IN_ONE_JUMP</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">已发现的独特飞车特技数</td>
+<td align="left">MP0_USJS_FOUND</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">已完成的独特飞车特技数</td>
+<td align="left">MP0_USJS_COMPLETED</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">有惊无险次数</td>
+<td align="left">MP0_NUMBER_NEAR_MISS</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">炸毁警车数</td>
+<td align="left">MP0_CARS_COPS_EXPLODED</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">炸毁汽车数</td>
+<td align="left">MP0_CARS_EXPLODED</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">炸毁摩托车数</td>
+<td align="left">MP0_BIKES_EXPLODED</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">炸毁直升机数</td>
+<td align="left">MP0_HELIS_EXPLODED</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">炸毁飞机数</td>
+<td align="left">MP0_PLANES_EXPLODED</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">炸毁船只数</td>
+<td align="left">MP0_BOATS_EXPLODED</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">炸毁沙滩车数</td>
+<td align="left">MP0_QUADBIKE_EXPLODED</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">载具修理次数</td>
+<td align="left">MP0_NO_CARS_REPAIR</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">载具喷漆次数</td>
+<td align="left">MP0_VEHICLES_SPRAYED</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">车辆已出口</td>
+<td align="left">MP0_VEHEXPORTED</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+</tbody></table>
+<h1 id="现金"><a href="#现金" class="headerlink" title="现金"></a>现金</h1><table>
+<thead>
+<tr>
+<th align="left">名称</th>
+<th align="left">代码</th>
+<th align="left">类型</th>
+<th align="left">备注</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">武器和护甲花费</td>
+<td align="left">MP0_MONEY_SPENT_WEAPON_ARMOR</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">载具和维护花费</td>
+<td align="left">MP0_MONEY_SPENT_VEH_MAINTENANCE</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">风格和娱乐花费</td>
+<td align="left">MP0_MONEY_SPENT_STYLE_ENT</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">资产和公用事业花费</td>
+<td align="left">MP0_MONEY_SPENT_PROPERTY_UTIL</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">差事和公用事业花费</td>
+<td align="left">MP0_MONEY_SPENT_JOB_ACTIVITY</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">联络人服务花费</td>
+<td align="left">MP0_MONEY_SPENT_CONTACT_SERVICE</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">医疗和保释花费</td>
+<td align="left">MP0_MONEY_SPENT_HEALTHCARE</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">丢失或被盗现金</td>
+<td align="left">MP0_MONEY_SPENT_DROPPED_STOLEN</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">给与他人金额</td>
+<td align="left">MP0_MONEY_SPENT_SHARED</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">与他人共享的差事现金数额</td>
+<td align="left">MP0_MONEY_SPENT_JOBSHARED</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">差事收入</td>
+<td align="left">MP0_MONEY_EARN_JOBS</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">出售载具收入</td>
+<td align="left">MP0_MONEY_EARN_SELLING_VEH</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">赌博收入</td>
+<td align="left">MP0_MONEY_EARN_BETTING</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">表现良好收入</td>
+<td align="left">MP0_MONEY_EARN_GOOD_SPORT</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">拾取金额</td>
+<td align="left">MP0_MONEY_EARN_PICKED_UP</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">他人给予金额</td>
+<td align="left">MP0_MONEY_EARN_SHARED</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">由他人共享的差事现金数额</td>
+<td align="left">MP0_MONEY_EARN_JOBSHARED</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+</tbody></table>
+<h1 id="作战"><a href="#作战" class="headerlink" title="作战"></a>作战</h1><table>
+<thead>
+<tr>
+<th align="left">名称</th>
+<th align="left">代码</th>
+<th align="left">类型</th>
+<th align="left">备注</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">射击次数</td>
+<td align="left">MP0_SHOTS</td>
+<td align="left">INT32</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">击中次数</td>
+<td align="left">MP0_HITS_PEDS_VEHICLES</td>
+<td align="left">INT32</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">精准度</td>
+<td align="left">MP0_WEAPON_ACCURACY</td>
+<td align="left">FLOAT</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">击杀数</td>
+<td align="left">MP0_KILLS</td>
+<td align="left">INT32</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">爆头击杀数</td>
+<td align="left">MP0_HEADSHOTS</td>
+<td align="left">INT32</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">持枪击杀数</td>
+<td align="left">MP0_KILLS_ARMED</td>
+<td align="left">INT32</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">自由瞄准击杀数</td>
+<td align="left">MP0_KILLS_IN_FREE_AIM</td>
+<td align="left">INT32</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">潜行击杀数</td>
+<td align="left">MP0_KILLS_STEALTH</td>
+<td align="left">INT32</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">反击次数</td>
+<td align="left">MP0_SUCCESSFUL_COUNTERS</td>
+<td align="left">INT32</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">玩家击杀数</td>
+<td align="left">MP0_KILLS_PLAYERS</td>
+<td align="left">INT32</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">玩家爆头击杀数</td>
+<td align="left">MP0_PLAYER_HEADSHOTS</td>
+<td align="left">INT32</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">生存战击杀数</td>
+<td align="left">MP0_HORDKILLS</td>
+<td align="left">INT32</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">帮派攻击击杀数</td>
+<td align="left">MP0_GHKILLS</td>
+<td align="left">INT32</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">死斗游戏最高连杀数</td>
+<td align="left">MP0_DM_HIGHEST_KILLSTREAK</td>
+<td align="left">INT32</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">头号大敌</td>
+<td align="left">MP0_ARCHENEMY_NAME</td>
+<td align="left">STRING</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">被头号大敌杀死的次数</td>
+<td align="left">MP0_ARCHENEMY_KILLS</td>
+<td align="left">INT32</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">受害者</td>
+<td align="left">MP0_BIGGEST_VICTIM_NAME</td>
+<td align="left">STRING</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">受害者击杀数</td>
+<td align="left">MP0_BIGGEST_VICTIM_KILLS</td>
+<td align="left">INT32</td>
+<td align="left"></td>
+</tr>
+</tbody></table>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="https://crazyzhang.cn">CrazyZhang</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://crazyzhang.cn/posts/b2a6/">https://crazyzhang.cn/posts/b2a6/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="external nofollow noreferrer" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://crazyzhang.cn" target="_blank">GTA5线上小助手</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/GTA5%E6%95%99%E7%A8%8B/">GTA5教程</a><a class="post-meta__tags" href="/tags/STAT%E4%BB%A3%E7%A0%81/">STAT代码</a></div><div class="post_share"><div class="social-share" data-image="https://pic.rmb.bdstatic.com/bjh/0bf50d6c058ecd390d2b62ddb941ab8c.jpeg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://unpkg.com/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://unpkg.com/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><div class="ads-wrap"><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-4497596037058479" data-ad-slot="9703475295" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/posts/29a1/" title="小助手外置辅助菜单传送小技巧"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic.rmb.bdstatic.com/bjh/d4263e5f62926b86572bc5f0fc19b7d7.jpeg" onerror="onerror=null;src='/assets/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">小助手外置辅助菜单传送小技巧</div></div></a></div><div class="next-post pull-right"><a href="/posts/b791/" title="利用街头竞速迅速升级车友会等级"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic.rmb.bdstatic.com/bjh/58d74295129af7c7e388438eef0e736b.jpeg" onerror="onerror=null;src='/assets/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">利用街头竞速迅速升级车友会等级</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><div><a href="/posts/5d74/" title="STAT代码 - 跳过佩里科岛抢劫前置任务"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic.rmb.bdstatic.com/bjh/58d74295129af7c7e388438eef0e736b.jpeg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2022-02-09</div><div class="title">STAT代码 - 跳过佩里科岛抢劫前置任务</div></div></a></div><div><a href="/posts/ba10/" title="BincoHax - 男女角色警服"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic.rmb.bdstatic.com/bjh/ccfb9a6e3051c9bc1c924065c8b7402c.jpeg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2021-07-25</div><div class="title">BincoHax - 男女角色警服</div></div></a></div><div><a href="/posts/7e8e/" title="BincoHax - 简单使用教程"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic.rmb.bdstatic.com/bjh/e4b5b2dc77aa1e655aec0313b458716f.jpeg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2021-07-27</div><div class="title">BincoHax - 简单使用教程</div></div></a></div><div><a href="/posts/59d9/" title="GTAHax - 修改角色性别"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic.rmb.bdstatic.com/bjh/e4b5b2dc77aa1e655aec0313b458716f.jpeg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2021-07-25</div><div class="title">GTAHax - 修改角色性别</div></div></a></div><div><a href="/posts/4fab/" title="GTAHax - 简单使用教程"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic.rmb.bdstatic.com/bjh/d4263e5f62926b86572bc5f0fc19b7d7.jpeg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2021-07-28</div><div class="title">GTAHax - 简单使用教程</div></div></a></div><div><a href="/posts/3c90/" title="GTAHax - 修改角色等级"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic.rmb.bdstatic.com/bjh/6a5d66dc0228bbedec7b07fddf9b2966.jpeg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2021-07-31</div><div class="title">GTAHax - 修改角色等级</div></div></a></div></div></div><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="twikoo-wrap"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/assets/img/avatar.png" onerror="this.onerror=null;this.src='/assets/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">CrazyZhang</div><div class="author-info__description">一个完全免费的GTA5线上模式小工具</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">31</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">29</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">1</div></a></div><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/CrazyZhang666/GTA5OnlineTools" rel="external nofollow noreferrer" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="https://discord.com/invite/7GuNzajfhD" rel="external nofollow noreferrer" target="_blank" title="加入Discord"><i class="fab fa-discord"></i></a><a class="social-icon" href="https://github.com/CrazyZhang666/GTA5OnlineTools/issues" rel="external nofollow noreferrer" target="_blank" title="报告bug"><i class="fas fa-bug"></i></a><a class="social-icon" href="https://github.com/CrazyZhang666/GTA5OnlineTools/releases" rel="external nofollow noreferrer" target="_blank" title="下载更新"><i class="fas fa-cloud-download-alt"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">如果您觉得小助手这个软件对你有帮助，可以 <span class="inline-tag blue">帮忙请点一点</span> 网站上的 <span class="inline-tag red">谷歌广告</span> ，以帮助作者把这个软件做的更好，感谢大家的支持 😊</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%8F%90%E7%A4%BA"><span class="toc-number">1.</span> <span class="toc-text">提示</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E8%81%8C%E4%B8%9A%E7%94%9F%E6%B6%AF"><span class="toc-number">2.</span> <span class="toc-text">职业生涯</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%8A%80%E8%83%BD"><span class="toc-number">3.</span> <span class="toc-text">技能</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E9%80%9A%E7%94%A8"><span class="toc-number">4.</span> <span class="toc-text">通用</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%8A%AF%E7%BD%AA"><span class="toc-number">5.</span> <span class="toc-text">犯罪</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%8A%AF%E7%BD%AA-1"><span class="toc-number">6.</span> <span class="toc-text">犯罪</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%8E%B0%E9%87%91"><span class="toc-number">7.</span> <span class="toc-text">现金</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BD%9C%E6%88%98"><span class="toc-number">8.</span> <span class="toc-text">作战</span></a></li></ol></div></div><div class="card-widget ads-wrap"><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-4497596037058479" data-ad-slot="9703475295" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2018 - 2023 By CrazyZhang</div><div class="footer_custom_text"><div class="github-badge"><a rel="license external nofollow noreferrer"href="https://hexo.io/"target="_blank"title="由 Hexo 强力驱动"><span class="badge-subject">Powered</span><span class="badge-value bg-blue">Hexo</span></a></div><div class="github-badge"><a rel="license external nofollow noreferrer"href="https://butterfly.js.org/"target="_blank"title="站点使用 Butterfly 主题"><span class="badge-subject">Theme</span><span class="badge-value bg-green">Butterfly</span></a></div><div class="github-badge"><a rel="license external nofollow noreferrer"href="https://www.jsdelivr.com/"target="_blank"title="jsDelivr 提供 CDN 加速服务"><span class="badge-subject">CDN</span><span class="badge-value bg-orange">jsDelivr</span></a></div><div class="github-badge"><a rel="license external nofollow noreferrer"href="https://github.com/"target="_blank"title="静态网页托管于 GitHub Pages"><span class="badge-subject">Hosted</span><span class="badge-value bg-grey">GitHub</span></a></div><div class="github-badge"><a rel="license external nofollow noreferrer"href="http://creativecommons.org/licenses/by-nc-sa/4.0/"target="_blank"title="本站点采用知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议进行许可"><span class="badge-subject"><i class="fa fa-copyright"></i></span><span class="badge-value bg-red">BY-NC-SA 4.0</span></a></div><div class="github-badge"><a rel="license external nofollow noreferrer"href="https://996.icu/"target="_blank"title="支持 996.ICU"><span class="badge-subject">Link</span><span class="badge-value bg-violet">996.ICU</span></a></div></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div></div></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://unpkg.com/@fancyapps/ui/dist/fancybox.umd.js"></script><script src="https://unpkg.com/instant.page/instantpage.js" type="module"></script><script src="https://unpkg.com/vanilla-lazyload/dist/lazyload.iife.min.js"></script><script src="https://unpkg.com/node-snackbar/dist/snackbar.min.js"></script><script src="/js/search/local-search.js"></script><div class="js-pjax"><script>(()=>{
+  const init = () => {
+    twikoo.init(Object.assign({
+      el: '#twikoo-wrap',
+      envId: 'http://127.0.0.1:8080/',
+      region: '',
+      onCommentLoaded: function () {
+        btf.loadLightbox(document.querySelectorAll('#twikoo .tk-content img:not(.tk-owo-emotion)'))
+      }
+    }, null))
+  }
+
+  const getCount = () => {
+    const countELement = document.getElementById('twikoo-count')
+    if(!countELement) return
+    twikoo.getCommentsCount({
+      envId: 'http://127.0.0.1:8080/',
+      region: '',
+      urls: [window.location.pathname],
+      includeReply: false
+    }).then(function (res) {
+      countELement.innerText = res[0].count
+    }).catch(function (err) {
+      console.error(err);
+    });
+  }
+
+  const runFn = () => {
+    init()
+    GLOBAL_CONFIG_SITE.isPost && getCount()
+  }
+
+  const loadTwikoo = () => {
+    if (typeof twikoo === 'object') {
+      setTimeout(runFn,0)
+      return
+    } 
+    getScript('https://unpkg.com/twikoo/dist/twikoo.all.min.js').then(runFn)
+  }
+
+  if ('Twikoo' === 'Twikoo' || !false) {
+    if (false) btf.loadComment(document.getElementById('twikoo-wrap'), loadTwikoo)
+    else loadTwikoo()
+  } else {
+    window.loadOtherComment = () => {
+      loadTwikoo()
+    }
+  }
+})()</script></div><script>window.addEventListener('load', () => {
+  const changeContent = (content) => {
+    if (content === '') return content
+
+    content = content.replace(/<img.*?src="(.*?)"?[^\>]+>/ig, '[图片]') // replace image link
+    content = content.replace(/<a[^>]+?href=["']?([^"']+)["']?[^>]*>([^<]+)<\/a>/gi, '[链接]') // replace url
+    content = content.replace(/<pre><code>.*?<\/pre>/gi, '[代码]') // replace code
+    content = content.replace(/<[^>]+>/g,"") // remove html tag
+
+    if (content.length > 150) {
+      content = content.substring(0,150) + '...'
+    }
+    return content
+  }
+
+  const getComment = () => {
+    const runTwikoo = () => {
+      twikoo.getRecentComments({
+        envId: 'http://127.0.0.1:8080/',
+        region: '',
+        pageSize: 6,
+        includeReply: true
+      }).then(function (res) {
+        const twikooArray = res.map(e => {
+          return {
+            'content': changeContent(e.comment),
+            'avatar': e.avatar,
+            'nick': e.nick,
+            'url': e.url + '#' + e.id,
+            'date': new Date(e.created).toISOString()
+          }
+        })
+
+        saveToLocal.set('twikoo-newest-comments', JSON.stringify(twikooArray), 10/(60*24))
+        generateHtml(twikooArray)
+      }).catch(function (err) {
+        const $dom = document.querySelector('#card-newest-comments .aside-list')
+        $dom.innerHTML= "无法获取评论，请确认相关配置是否正确"
+      })
+    }
+
+    if (typeof twikoo === 'object') {
+      runTwikoo()
+    } else {
+      getScript('https://unpkg.com/twikoo/dist/twikoo.all.min.js').then(runTwikoo)
+    }
+  }
+
+  const generateHtml = array => {
+    let result = ''
+
+    if (array.length) {
+      for (let i = 0; i < array.length; i++) {
+        result += '<div class=\'aside-list-item\'>'
+
+        if (true) {
+          const name = 'data-lazy-src'
+          result += `<a href='${array[i].url}' class='thumbnail'><img ${name}='${array[i].avatar}' alt='${array[i].nick}'></a>`
+        }
+        
+        result += `<div class='content'>
+        <a class='comment' href='${array[i].url}' title='${array[i].content}'>${array[i].content}</a>
+        <div class='name'><span>${array[i].nick} / </span><time datetime="${array[i].date}">${btf.diffDate(array[i].date, true)}</time></div>
+        </div></div>`
+      }
+    } else {
+      result += '没有评论'
+    }
+
+    let $dom = document.querySelector('#card-newest-comments .aside-list')
+    $dom.innerHTML= result
+    window.lazyLoadInstance && window.lazyLoadInstance.update()
+    window.pjax && window.pjax.refresh($dom)
+  }
+
+  const newestCommentInit = () => {
+    if (document.querySelector('#card-newest-comments .aside-list')) {
+      const data = saveToLocal.get('twikoo-newest-comments')
+      if (data) {
+        generateHtml(JSON.parse(data))
+      } else {
+        getComment()
+      }
+    }
+  }
+
+  newestCommentInit()
+  document.addEventListener('pjax:complete', newestCommentInit)
+})</script><script src="/assets/main.js"></script><script src="https://api.crazyzhang.cn/live2d/autoload.js"></script><script src="https://myhkw.cn/player/js/jquery.min.js" type="text/javascript"></script><script src="https://myhkw.cn/api/player/164447638543" id="myhk" key="164447638543" ></script><script id="click-heart" src="https://unpkg.com/butterfly-extsrc/dist/click-heart.min.js" async="async" mobile="true"></script><script src="https://unpkg.com/pjax/pjax.min.js"></script><script>let pjaxSelectors = ["head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+
+var pjax = new Pjax({
+  elements: 'a:not([target="_blank"])',
+  selectors: pjaxSelectors,
+  cacheBust: false,
+  analytics: true,
+  scrollRestoration: false
+})
+
+document.addEventListener('pjax:send', function () {
+
+  // removeEventListener scroll 
+  window.tocScrollFn && window.removeEventListener('scroll', window.tocScrollFn)
+  window.scrollCollect && window.removeEventListener('scroll', scrollCollect)
+
+  document.getElementById('rightside').style.cssText = "opacity: ''; transform: ''"
+  
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
+
+  typeof typed === 'object' && typed.destroy()
+
+  //reset readmode
+  const $bodyClassList = document.body.classList
+  $bodyClassList.contains('read-mode') && $bodyClassList.remove('read-mode')
+
+  typeof disqusjs === 'object' && disqusjs.destroy()
+})
+
+document.addEventListener('pjax:complete', function () {
+  window.refreshFn()
+
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+  })
+
+  GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+  typeof chatBtnFn === 'function' && chatBtnFn()
+  typeof panguInit === 'function' && panguInit()
+
+  // google analytics
+  typeof gtag === 'function' && gtag('config', 'UA-144738275-1', {'page_path': window.location.pathname});
+
+  // baidu analytics
+  typeof _hmt === 'object' && _hmt.push(['_trackPageview',window.location.pathname]);
+
+  typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+
+  // prismjs
+  typeof Prism === 'object' && Prism.highlightAll()
+})
+
+document.addEventListener('pjax:error', (e) => {
+  if (e.request.status === 404) {
+    pjax.loadUrl('/404.html')
+  }
+})</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
