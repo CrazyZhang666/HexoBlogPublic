@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>如何正确反馈小助手Bug</title>
+      <link href="/gta5/dbug.html"/>
+      <url>/gta5/dbug.html</url>
+      
+        <content type="html"><![CDATA[<!-- 文章内嵌广告 --><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4497596037058479"        crossorigin="anonymous"></script><ins class="adsbygoogle"     style="display:block; text-align:center;"     data-ad-layout="in-article"     data-ad-format="fluid"     data-ad-client="ca-pub-4497596037058479"     data-ad-slot="2142900262"></ins><script>    (adsbygoogle = window.adsbygoogle || []).push({});</script><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>看到有些玩家反馈小助手Bug描述的十分笼统，站长也只能靠猜测问题，这样一个问题往往很难得到解决，所以站长写一篇如何正确反馈小助手Bug教程供大家参考</p><h2 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h2><p>一些常见问题，网站上已经给出解决方案，请先阅读再在考虑继续提问</p><div class="note info simple"><p><a href="https://crazyzhang.cn/help/">https://crazyzhang.cn/help/</a></p></div><h2 id="小助手崩溃"><a href="#小助手崩溃" class="headerlink" title="小助手崩溃"></a>小助手崩溃</h2><p>如果小助手程序发生崩溃（注意：不是GTA5游戏崩溃），程序会生成一个崩溃日志</p><blockquote><p>位置：我的文档\GTA5OnlineTools\Log</p></blockquote><img src="https://img.kookapp.cn/assets/2023-02/HCjZ3Q3ReE0zq0kh.png" referrerpolicy="no-referrer" alt="img"/><p>这个 <code>Crash</code> 文件夹里就是崩溃日志</p><blockquote><p>崩溃日志的文件夹都是按照时间命名的，请查看最新日期的崩溃日志</p></blockquote><img src="https://img.kookapp.cn/assets/2023-02/1aC2T5hHKg0zq0kh.png" referrerpolicy="no-referrer" alt="img"/><p>请将最新的崩溃日志上传到 <code>Github Issues</code> </p><blockquote><p><a href="https://github.com/CrazyZhang666/GTA5OnlineTools/issues">https://github.com/CrazyZhang666/GTA5OnlineTools/issues</a></p></blockquote><img src="https://img.kookapp.cn/assets/2023-02/XQCLeFQu2o0uc0h2.png" referrerpolicy="no-referrer" alt="img"/><p>就像这样发起一个新 <code>Issues</code> 即可，如果没有日志对于开发者来说无异于闭眼开车</p><blockquote><p>如果 <code>GitHub</code> 无法访问，可以将日志粘贴到小助手留言板</p></blockquote><img src="https://img.kookapp.cn/assets/2023-02/GqwwrEwn8E1hc0q1.png" referrerpolicy="no-referrer" alt="img"/><h2 id="第三方"><a href="#第三方" class="headerlink" title="第三方"></a>第三方</h2><p>这里的辅助基本都是来源于国外 <code>UnKnoWnCheaTs</code> 论坛，站长也只是汉化，程序本身一般是没啥问题的</p><div class="note default simple"><p>如果出现问题，站长大概率也是束手无策，站长只能保证汉化没问题</p></div><div class="note info simple"><p>Kiddion一般报错都是旧版本脚本导致的，删除脚本再打开Kiddion即可</p></div><img src="https://img.kookapp.cn/assets/2023-02/t6u0iPav1h0zk0k0.png" referrerpolicy="no-referrer" alt="img"/><h2 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h2><p>这里的辅助是小助手自己设计的，注意，每个功能入口都是相互独立的</p><img src="https://img.kookapp.cn/assets/2023-02/AOeb2NeApX0zk0k0.png" referrerpolicy="no-referrer" alt="img"/><h2 id="正确反馈问题"><a href="#正确反馈问题" class="headerlink" title="正确反馈问题"></a>正确反馈问题</h2><p>举个几个简单例子：</p><div class="note info simple"><p>原则就是尽量描述问题所在的具体位置，如果不记得具体功能，也要描述下你打开小助手后，都使用了哪些功能</p></div><div class="note warning simple"><p>错误示例：小助手无效、功能打不开、没效果。</p><p>如果玩家这样反馈问题，那么开发者只能靠猜，就好比去医院就诊，医生问你哪里不舒服，你就只回答不舒服，让医生猜 😅</p></div><blockquote><p>小助手-&gt;YimMenu-&gt;网络选项-&gt;战局-&gt;切换战局无效</p></blockquote><blockquote><p>小助手-&gt;功能-&gt;车速表-&gt;速度单位切换无效</p></blockquote><blockquote><p>小助手-&gt;功能-&gt;外置菜单-&gt;ESP-&gt;玩家名称乱码</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> gta5 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> GTA5教程 </tag>
+            
+            <tag> 反馈小助手Bug </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>YimMenu简单使用教程</title>
       <link href="/gta5/yimm.html"/>
       <url>/gta5/yimm.html</url>
