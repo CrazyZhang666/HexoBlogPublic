@@ -202,3 +202,8 @@ div#category {
 .github-badge .bg-violet {
     background-color: #8833d7;
 }
+
+/*解除广告屏蔽教程连接样式*/
+.google-ads-link {
+    color: dodgerblue;
+}
