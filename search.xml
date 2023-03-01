@@ -4,6 +4,60 @@
   
     
     <entry>
+      <title>小助手近期版本亮点</title>
+      <link href="/gta5/3f5a.html"/>
+      <url>/gta5/3f5a.html</url>
+      
+        <content type="html"><![CDATA[<!-- 文章内嵌广告 --><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4497596037058479"        crossorigin="anonymous"></script><ins class="adsbygoogle"     style="display:block; text-align:center;"     data-ad-layout="in-article"     data-ad-format="fluid"     data-ad-client="ca-pub-4497596037058479"     data-ad-slot="2142900262"></ins><script>    (adsbygoogle = window.adsbygoogle || []).push({});</script><h2 id="刷出线上载具"><a href="#刷出线上载具" class="headerlink" title="刷出线上载具"></a>刷出线上载具</h2><p>新的刷出线上载具UI布局，按鼠标右键会有操作菜单，支持收藏载具，双击选中项可快捷刷出载具</p><img src="https://img.kookapp.cn/assets/2023-03/wf3LtCWrm80zk0k0.png" referrerpolicy="no-referrer" alt="img"/><p>支持载具名称搜索（不区分大小写），同时也具备右键菜单</p><img src="https://img.kookapp.cn/assets/2023-03/Ro3QA3du1w0zk0k0.png" referrerpolicy="no-referrer" alt="img"/><p>收藏页面支持拖拽排序，支持右键菜单管理收藏载具</p><img src="https://img.kookapp.cn/assets/2023-03/pC47jOsA280zk0k0.png" referrerpolicy="no-referrer" alt="img"/><h2 id="自定义坐标传送"><a href="#自定义坐标传送" class="headerlink" title="自定义坐标传送"></a>自定义坐标传送</h2><p>新的UI布局，支持按住鼠标左键拖拽排序</p><img src="https://img.kookapp.cn/assets/2023-03/prizJ6UBfh0zk0k0.png" referrerpolicy="no-referrer" alt="img"/><h2 id="自定义Blip传送"><a href="#自定义Blip传送" class="headerlink" title="自定义Blip传送"></a>自定义Blip传送</h2><p>支持右键菜单收藏，支持双击选中项快速传送，收藏页面同样支持拖拽排序</p><img src="https://img.kookapp.cn/assets/2023-03/uxWAKhph6d0zk0k0.png" referrerpolicy="no-referrer" alt="img"/><h2 id="外置菜单"><a href="#外置菜单" class="headerlink" title="外置菜单"></a>外置菜单</h2><p>新的图文UI布局，均支持双击选中项快捷使用对应功能</p><img src="https://img.kookapp.cn/assets/2023-03/uuCCWLLbxc0zk0k0.png" referrerpolicy="no-referrer" alt="img"/><img src="https://img.kookapp.cn/assets/2023-03/aPwVVxMwkW0zk0k0.png" referrerpolicy="no-referrer" alt="img"/><img src="https://img.kookapp.cn/assets/2023-03/KooYanRYaM0zk0k0.png" referrerpolicy="no-referrer" alt="img"/><img src="https://img.kookapp.cn/assets/2023-03/b7RNAfg6Ql0zk0k0.png" referrerpolicy="no-referrer" alt="img"/><h2 id="随身技工"><a href="#随身技工" class="headerlink" title="随身技工"></a>随身技工</h2><p>新的图文UI布局，支持搜索载具（不区分大小写），支持双击选中项快捷呼叫载具</p><img src="https://img.kookapp.cn/assets/2023-03/m4YVs9DczR0zk0k0.png" referrerpolicy="no-referrer" alt="img"/>]]></content>
+      
+      
+      <categories>
+          
+          <category> gta5 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> GTA5教程 </tag>
+            
+            <tag> 小助手版本亮点 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Kiddion脚本简单使用指南</title>
+      <link href="/kiddion/9a64.html"/>
+      <url>/kiddion/9a64.html</url>
+      
+        <content type="html"><![CDATA[<!-- 文章内嵌广告 --><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4497596037058479"        crossorigin="anonymous"></script><ins class="adsbygoogle"     style="display:block; text-align:center;"     data-ad-layout="in-article"     data-ad-format="fluid"     data-ad-client="ca-pub-4497596037058479"     data-ad-slot="2142900262"></ins><script>    (adsbygoogle = window.adsbygoogle || []).push({});</script><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>Kiddion脚本文件夹：我的文档\GTA5OnlineTools\Kiddion\scripts</p><p>Kiddion本身不带脚本，脚本一般都为玩家自己编写的，如果Kiddion打开报错，一般都是脚本出现问题</p><blockquote><p>如果Kiddion或GTA5游戏发生更新，那么脚本也需要更新，否则打开Kiddion可能会提示脚本错误</p></blockquote><h2 id="LUA脚本管理器"><a href="#LUA脚本管理器" class="headerlink" title="LUA脚本管理器"></a>LUA脚本管理器</h2><p>小助手里有个LUA脚本管理器，可以方便玩家管理Kiddion脚本</p><img src="https://img.kookapp.cn/assets/2023-03/oyLaRQ62fR0zk0k0.png" referrerpolicy="no-referrer" alt="img"/><p>清空脚本目录会自动清空这个文件夹：我的文档\GTA5OnlineTools\Kiddion\scripts ，如果有重要脚本请注意备份</p><p>点击下方的两个蓝色按钮可以释放对应脚本到Kiddion脚本文件夹</p><blockquote><p>每次小助手更新，我都会更新LUA脚本管理器中嵌入的脚本，但是玩家如果需要更新，还是需要手动删除旧脚本重新释放</p></blockquote><img src="https://img.kookapp.cn/assets/2023-03/Y054OacaJp0zk0k0.png" referrerpolicy="no-referrer" alt="img"/><p>这里可以看到我们所释放的Lua脚本</p><blockquote><p><code>Readme.api</code> 文件为Kiddion脚本的接口说明，大家可以按照此说明自己编写脚本</p></blockquote><img src="https://img.kookapp.cn/assets/2023-03/PJEQJaLPkb0xc0j0.png" referrerpolicy="no-referrer" alt="img"/><p>这时我们打开Kiddion，选择 <code>脚本</code> 选项</p><img src="https://img.kookapp.cn/assets/2023-03/M6eQfIDa5j0nj0d7.png" referrerpolicy="no-referrer" alt="img"/><p>这里就可以看到我们的脚本了</p><img src="https://img.kookapp.cn/assets/2023-03/XzAEdvIA7S0ls0bv.png" referrerpolicy="no-referrer" alt="img"/>]]></content>
+      
+      
+      <categories>
+          
+          <category> kiddion </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> GTA5教程 </tag>
+            
+            <tag> Kiddion脚本 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>如何正确反馈小助手Bug</title>
       <link href="/gta5/dbug.html"/>
       <url>/gta5/dbug.html</url>
