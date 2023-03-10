@@ -140,15 +140,15 @@
     
     <entry>
       <title>GTA5 1.66 单独未加密补丁</title>
-      <link href="/online/8313.html"/>
-      <url>/online/8313.html</url>
+      <link href="/gta5/8313.html"/>
+      <url>/gta5/8313.html</url>
       
         <content type="html"><![CDATA[<!-- 文章内嵌广告 --><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4497596037058479"        crossorigin="anonymous"></script><ins class="adsbygoogle"     style="display:block; text-align:center;"     data-ad-layout="in-article"     data-ad-format="fluid"     data-ad-client="ca-pub-4497596037058479"     data-ad-slot="2142900262"></ins><script>    (adsbygoogle = window.adsbygoogle || []).push({});</script><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>有时候我们想玩单机，但是又不想登录steam，也不想去下载上百G的学习版游戏文件，现在就有个好办法，直接把GTA5游戏复制一份，然后打上未加密补丁就可以畅玩单机了，和正版文件互不影响</p><h2 id="教程"><a href="#教程" class="headerlink" title="教程"></a>教程</h2><p>我们单独复制一份原版GTA5到别的地方</p><blockquote><p>我这里以steam版本为演示，其他版本同理</p></blockquote><img src="https://img.kookapp.cn/assets/2023-02/e7Ya1edHMn15h0ow.png" referrerpolicy="no-referrer" alt="img"/><p>注意GTA5大小100G，请确保磁盘空间充足</p><img src="https://img.kookapp.cn/assets/2023-02/2AGNJ103GD0bp0h3.png" referrerpolicy="no-referrer" alt="img"/><p>等待GTA5复制完成后，我们解压《GTA5 1.66 Steam版未加密补丁》，大概有这几个文件</p><img src="https://img.kookapp.cn/assets/2023-02/WRFJXk5Mns0vt0ja.png" referrerpolicy="no-referrer" alt="img"/><p>然后全部选中，右键复制</p><img src="https://img.kookapp.cn/assets/2023-02/Wr8nj1QWpM0wj0kz.png" referrerpolicy="no-referrer" alt="img"/><p>粘贴到我们刚才复制的GTA5游戏文件夹中</p><img src="https://img.kookapp.cn/assets/2023-02/saQ1qurrfF15s0p9.png" referrerpolicy="no-referrer" alt="img"/><h2 id="启动游戏"><a href="#启动游戏" class="headerlink" title="启动游戏"></a>启动游戏</h2><p>打开《GTA5.exe》或者《PlayGTAV.exe》均可启动游戏</p><img src="https://img.kookapp.cn/assets/2023-02/U4vbqwcgMz0y60mb.png" referrerpolicy="no-referrer" alt="img"/><h2 id="修改语言"><a href="#修改语言" class="headerlink" title="修改语言"></a>修改语言</h2><p>编辑《commandline.txt》这个文件</p><img src="https://img.kookapp.cn/assets/2023-02/ZNvLKxdBb40y60mb.png" referrerpolicy="no-referrer" alt="img"/><p>修改文件内容，请直接复制粘贴，然后保存，重启游戏语言即可生效</p><ul><li>简体中文</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">-uilanguage &quot;chineseimp&quot;</span><br></pre></td></tr></table></figure><ul><li>繁体中文</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">-uilanguage &quot;chinese&quot;</span><br></pre></td></tr></table></figure><ul><li>英文</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">-uilanguage &quot;american&quot;</span><br></pre></td></tr></table></figure><h2 id="存档位置"><a href="#存档位置" class="headerlink" title="存档位置"></a>存档位置</h2><blockquote><p>C:\Users\你电脑用户名\AppData\Roaming\Goldberg SocialClub Emu Saves\GTA V</p></blockquote><img src="https://img.kookapp.cn/assets/2023-02/nVGGJhMgEn0wu0iy.png" referrerpolicy="no-referrer" alt="img"/><h2 id="文件下载"><a href="#文件下载" class="headerlink" title="文件下载"></a>文件下载</h2><blockquote><p>链接: <a href="https://crazyzhang.lanzouf.com/b04np0x3e">https://crazyzhang.lanzouf.com/b04np0x3e</a><br>密码: gta5</p></blockquote>]]></content>
       
       
       <categories>
           
-          <category> online </category>
+          <category> gta5 </category>
           
       </categories>
       
@@ -211,9 +211,9 @@
       
         <tags>
             
-            <tag> 快速赚钱 </tag>
-            
             <tag> 线上模式 </tag>
+            
+            <tag> 快速赚钱 </tag>
             
         </tags>
       
@@ -830,16 +830,16 @@
     
     
     <entry>
-      <title>GTAHax - 修改角色性别</title>
-      <link href="/gtahax/59d9.html"/>
-      <url>/gtahax/59d9.html</url>
+      <title>修改GTA线上模式角色性别</title>
+      <link href="/online/59d9.html"/>
+      <url>/online/59d9.html</url>
       
         <content type="html"><![CDATA[<!-- 文章内嵌广告 --><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4497596037058479"        crossorigin="anonymous"></script><ins class="adsbygoogle"     style="display:block; text-align:center;"     data-ad-layout="in-article"     data-ad-format="fluid"     data-ad-client="ca-pub-4497596037058479"     data-ad-slot="2142900262"></ins><script>    (adsbygoogle = window.adsbygoogle || []).push({});</script><h2 id="教程"><a href="#教程" class="headerlink" title="教程"></a>教程</h2><p>首选打开小助手的 <code>STAT自动化脚本</code> 功能</p><img src="https://img.kookapp.cn/assets/2023-03/4QVvTeRwf10zk0k0.png" referrerpolicy="no-referrer" alt="img"/><p>选择 <code>玩家-性别修改</code> ，然后点击 <code>执行选中脚本</code></p><img src="https://img.kookapp.cn/assets/2023-03/vRJGkvuUKh0z00jg.png" referrerpolicy="no-referrer" alt="img"/><p>回到游戏，右下角出现类似 <code>大受好评</code> 的奖章提示，就代表执行成功了</p><blockquote><p>如果没有奖章提示，可以多执行几次，或者切换战局再次测试</p></blockquote><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">MP0_ALLOW_GENDER_CHANGE</span><br><span class="line">52</span><br></pre></td></tr></table></figure><img src="https://img.kookapp.cn/assets/2023-03/l3jCGEMGBE0zk0k0.png" referrerpolicy="no-referrer" alt="img"/><p>现在我们按 <code>M键</code> 打开菜单，选择 <code>风格</code></p><img src="https://img.kookapp.cn/assets/2023-03/rn341CEJFQ0zk0k0.png" referrerpolicy="no-referrer" alt="img"/><p>可以按如果所示勾选 <code>免费修改外貌</code></p><img src="https://img.kookapp.cn/assets/2023-03/r5pygLGhPP0zk0k0.png" referrerpolicy="no-referrer" alt="img"/><p>这样 <code>更改外观</code> 就变成免费了，我们点击这个选项</p><img src="https://img.kookapp.cn/assets/2023-03/r43N7BcNoN0zk0k0.png" referrerpolicy="no-referrer" alt="img"/><p>这里我们选择 <code>是</code>，或者直接按 <code>回车键</code></p><img src="https://img.kookapp.cn/assets/2023-03/JLWoXmOUxx0zk0k0.png" referrerpolicy="no-referrer" alt="img"/><p>可以看到，有性别修改选项了</p><blockquote><p>如果修改性别，玩家的衣服可能会出现些问题，因为部分衣服男女角色模型不一样</p></blockquote><img src="https://img.kookapp.cn/assets/2023-03/F2GjB929cQ0zk0k0.png" referrerpolicy="no-referrer" alt="img"/>]]></content>
       
       
       <categories>
           
-          <category> gtahax </category>
+          <category> online </category>
           
       </categories>
       
@@ -848,7 +848,9 @@
             
             <tag> GTA5教程 </tag>
             
-            <tag> GTAHax教程 </tag>
+            <tag> 线上模式 </tag>
+            
+            <tag> 修改性别 </tag>
             
         </tags>
       
