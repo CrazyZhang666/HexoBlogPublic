@@ -33,8 +33,8 @@ if (screen.width >= 768) {
 		// 配置选项的具体用法见 README.md
 		initWidget({
 			waifuPath: live2d_path + "waifu-tips.json",
-			apiPath: "https://cdn.jsdelivr.net/npm/hexo-live2d-api@latest/",
-			cdnPath: "https://cdn.jsdelivr.net/npm/hexo-live2d-api@latest/",
+			apiPath: "https://unpkg.com/hexo-live2d-api@1.1.0/",
+			cdnPath: "https://unpkg.com/hexo-live2d-api@1.1.0/",
 			tools: ["hitokoto", "switch-model", "switch-texture", "photo", "info", "quit"]
 		});
 	});
