@@ -11,14 +11,6 @@ a, i, img, span {
 
 /*------------------- 分割线 -------------------*/
 
-/* 标题栏 */
-#page-header #nav {
-    background: rgba(255, 255, 255, 0.5) !important;
-    backdrop-filter: blur(20px);
-}
-
-/*------------------- 分割线 -------------------*/
-
 /* code标签样式 */
 code {
     background: #0A85D9 !important;
