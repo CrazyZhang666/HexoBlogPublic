@@ -11,6 +11,33 @@
   </url>
   
   <url>
+    <loc>https://crazyzhang.cn/bug/index.html</loc>
+    
+    <lastmod>2023-07-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://crazyzhang.cn/help/index.html</loc>
+    
+    <lastmod>2023-07-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://crazyzhang.cn/change/index.html</loc>
+    
+    <lastmod>2023-07-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://crazyzhang.cn/discord/index.html</loc>
     
     <lastmod>2023-07-05</lastmod>
@@ -29,15 +56,6 @@
   </url>
   
   <url>
-    <loc>https://crazyzhang.cn/bug/index.html</loc>
-    
-    <lastmod>2023-07-05</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://crazyzhang.cn/tags/index.html</loc>
     
     <lastmod>2023-07-05</lastmod>
@@ -48,15 +66,6 @@
   
   <url>
     <loc>https://crazyzhang.cn/runtime/index.html</loc>
-    
-    <lastmod>2023-07-05</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://crazyzhang.cn/help/index.html</loc>
     
     <lastmod>2023-07-05</lastmod>
     
@@ -84,15 +93,6 @@
   
   <url>
     <loc>https://crazyzhang.cn/categories/index.html</loc>
-    
-    <lastmod>2023-07-05</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://crazyzhang.cn/change/index.html</loc>
     
     <lastmod>2023-07-05</lastmod>
     
@@ -317,6 +317,15 @@
   </url>
   
   <url>
+    <loc>https://crazyzhang.cn/online/6972.html</loc>
+    
+    <lastmod>2022-02-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://crazyzhang.cn/online/29a1.html</loc>
     
     <lastmod>2022-02-08</lastmod>
@@ -354,15 +363,6 @@
   
   <url>
     <loc>https://crazyzhang.cn/stat/b2a6.html</loc>
-    
-    <lastmod>2022-02-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://crazyzhang.cn/online/6972.html</loc>
     
     <lastmod>2022-02-08</lastmod>
     
@@ -465,14 +465,14 @@
   </url>
   
   <url>
-    <loc>https://crazyzhang.cn/tags/%E5%B0%8F%E5%8A%A9%E6%89%8BESP/</loc>
+    <loc>https://crazyzhang.cn/tags/%E8%BE%85%E5%8A%A9%E9%A3%8E%E9%99%A9%E9%A2%84%E8%AD%A6/</loc>
     <lastmod>2023-07-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://crazyzhang.cn/tags/%E8%BE%85%E5%8A%A9%E9%A3%8E%E9%99%A9%E9%A2%84%E8%AD%A6/</loc>
+    <loc>https://crazyzhang.cn/tags/%E5%B0%8F%E5%8A%A9%E6%89%8BESP/</loc>
     <lastmod>2023-07-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -507,13 +507,6 @@
   </url>
   
   <url>
-    <loc>https://crazyzhang.cn/tags/%E5%B9%BF%E5%91%8A%E5%B1%8F%E8%94%BD%E7%99%BD%E5%90%8D%E5%8D%95/</loc>
-    <lastmod>2023-07-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://crazyzhang.cn/tags/GTAHax%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2023-07-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -529,6 +522,27 @@
   
   <url>
     <loc>https://crazyzhang.cn/tags/%E5%90%8D%E9%92%BB%E8%B5%8C%E5%9C%BA%E8%B1%AA%E5%8A%AB/</loc>
+    <lastmod>2023-07-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://crazyzhang.cn/tags/Kiddion%E8%84%9A%E6%9C%AC/</loc>
+    <lastmod>2023-07-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://crazyzhang.cn/tags/%E5%B9%BF%E5%91%8A%E5%B1%8F%E8%94%BD%E7%99%BD%E5%90%8D%E5%8D%95/</loc>
+    <lastmod>2023-07-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://crazyzhang.cn/tags/YimMenu/</loc>
     <lastmod>2023-07-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -584,6 +598,13 @@
   </url>
   
   <url>
+    <loc>https://crazyzhang.cn/tags/%E6%8D%8F%E8%84%B8%E6%95%B0%E6%8D%AE/</loc>
+    <lastmod>2023-07-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://crazyzhang.cn/tags/%E4%BC%A0%E9%80%81%E5%B0%8F%E6%8A%80%E5%B7%A7/</loc>
     <lastmod>2023-07-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -605,28 +626,7 @@
   </url>
   
   <url>
-    <loc>https://crazyzhang.cn/tags/Kiddion%E8%84%9A%E6%9C%AC/</loc>
-    <lastmod>2023-07-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://crazyzhang.cn/tags/STAT%E4%BB%A3%E7%A0%81/</loc>
-    <lastmod>2023-07-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://crazyzhang.cn/tags/YimMenu/</loc>
-    <lastmod>2023-07-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://crazyzhang.cn/tags/%E6%8D%8F%E8%84%B8%E6%95%B0%E6%8D%AE/</loc>
     <lastmod>2023-07-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -656,13 +656,6 @@
   </url>
   
   <url>
-    <loc>https://crazyzhang.cn/categories/online/</loc>
-    <lastmod>2023-07-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://crazyzhang.cn/categories/kiddion/</loc>
     <lastmod>2023-07-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -670,14 +663,21 @@
   </url>
   
   <url>
-    <loc>https://crazyzhang.cn/categories/stat/</loc>
+    <loc>https://crazyzhang.cn/categories/yimmenu/</loc>
     <lastmod>2023-07-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://crazyzhang.cn/categories/yimmenu/</loc>
+    <loc>https://crazyzhang.cn/categories/online/</loc>
+    <lastmod>2023-07-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://crazyzhang.cn/categories/stat/</loc>
     <lastmod>2023-07-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
