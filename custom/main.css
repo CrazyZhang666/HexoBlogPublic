@@ -9,25 +9,49 @@ a, i, img, span {
     default;
 }
 
-/*网格背景*/
+/*------------------- 分割线 -------------------*/
+
+/* 标题栏 */
+#page-header #nav {
+    background: rgba(255, 255, 255, 0.5) !important;
+    backdrop-filter: blur(20px);
+}
+
+/*------------------- 分割线 -------------------*/
+
+/* code标签样式 */
+code {
+    background: #0A85D9 !important;
+    border-radius: 5px;
+    margin: 0 5px;
+    padding: 2px;
+    color: #FFF !important;
+    word-break: keep-all;
+    white-space: nowrap;
+}
+
+/*------------------- 分割线 -------------------*/
+
+/* 网格背景 */
 body {
     background-image: linear-gradient(90deg, #EBEEF5 1px, transparent 0px), linear-gradient(0deg, #EBEEF5 1px, transparent 0px);
     background-size: 16px 16px;
     background-attachment: fixed;
 }
 
-/* span 小标签*/
+/*------------------- 分割线 -------------------*/
+
+/* span 小标签 */
 span.inline-tag {
     display: inline;
     padding: .2em .6em .3em;
     font-size: 90%;
     font-weight: 400;
     line-height: 1;
-    color: #fff;
+    color: #FFF;
     text-align: center;
     white-space: nowrap;
     vertical-align: baseline;
-    border-radius: .1rem;
     border-radius: 6px;
     background-color: var(--Color)
 }
@@ -57,6 +81,8 @@ p.grey, span.grey {
     --ColorA: rgba(76, 76, 76, 0.2);
 }
 
+/*------------------- 分割线 -------------------*/
+
 /* 滚动条 */
 ::-webkit-scrollbar {
     width: 7px;
@@ -78,9 +104,11 @@ p.grey, span.grey {
     background-color: #e58a8a;
 }
 
+/*------------------- 分割线 -------------------*/
+
 /* Twikoo 评论框高度 */
 #twikoo .el-textarea__inner {
-    min-height: 180px !important;
+    min-height: 200px !important;
 }
 
 #twikoo .el-textarea__inner:focus {
@@ -93,6 +121,8 @@ p.grey, span.grey {
     border: 1px solid #DBDCDC;
     background: rgba(255, 255, 255, 0.5);
 }
+
+/*------------------- 分割线 -------------------*/
 
 /* 头图透明 */
 #page-header {
@@ -144,7 +174,7 @@ div#category {
     background: transparent !important;
 }
 
-/*标签整体样式*/
+/* 标签整体样式 */
 .github-badge {
     margin-left: 5px;
     display: inline-block;
@@ -203,7 +233,9 @@ div#category {
     background-color: #8833d7;
 }
 
-/*解除广告屏蔽教程连接样式*/
+/*------------------- 分割线 -------------------*/
+
+/* 解除广告屏蔽教程连接样式 */
 .google-ads-link {
     color: dodgerblue;
 }

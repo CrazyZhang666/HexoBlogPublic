@@ -1413,7 +1413,7 @@ body {
   background: var(--global-bg);
   color: var(--font-color);
   font-size: var(--global-font-size);
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Lato, Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-family: HarmonyOS_Regular;
   line-height: 2;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
@@ -1664,7 +1664,7 @@ figure.highlight pre .javascript .function {
 #article-container pre,
 #article-container code {
   font-size: var(--global-font-size);
-  font-family: consolas, Menlo, 'PingFang SC', 'Microsoft YaHei', sans-serif !important;
+  font-family: HarmonyOS_Regular !important;
 }
 #article-container code {
   padding: 2px 4px;
@@ -3982,8 +3982,8 @@ h1.page-title + .tag-cloud-list {
 #article-container h6:before {
   position: absolute;
   top: calc(50% - 7px);
-  color: #03a9f4;
-  content: '\f0a9';
+  color: #f47466;
+  content: '\f02b';
   line-height: 1;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
