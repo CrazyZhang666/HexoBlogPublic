@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://crazyzhang.cn/risk/index.html</loc>
+    
+    <lastmod>2023-07-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://crazyzhang.cn/about/index.html</loc>
     
     <lastmod>2023-07-09</lastmod>
@@ -263,15 +272,6 @@
   </url>
   
   <url>
-    <loc>https://crazyzhang.cn/gta5/limit.html</loc>
-    
-    <lastmod>2022-10-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://crazyzhang.cn/stat/perico.html</loc>
     
     <lastmod>2022-02-09</lastmod>
@@ -291,15 +291,6 @@
   
   <url>
     <loc>https://crazyzhang.cn/bincohax/docs.html</loc>
-    
-    <lastmod>2022-02-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://crazyzhang.cn/gta5/risk.html</loc>
     
     <lastmod>2022-02-08</lastmod>
     
@@ -335,7 +326,7 @@
   </url>
   
   <url>
-    <loc>https://crazyzhang.cn/online/b791.html</loc>
+    <loc>https://crazyzhang.cn/online/skill.html</loc>
     
     <lastmod>2022-02-08</lastmod>
     
@@ -344,7 +335,7 @@
   </url>
   
   <url>
-    <loc>https://crazyzhang.cn/online/2d8b.html</loc>
+    <loc>https://crazyzhang.cn/online/b791.html</loc>
     
     <lastmod>2022-02-08</lastmod>
     
@@ -371,7 +362,7 @@
   </url>
   
   <url>
-    <loc>https://crazyzhang.cn/stat/b2a6.html</loc>
+    <loc>https://crazyzhang.cn/stat/statis.html</loc>
     
     <lastmod>2022-02-08</lastmod>
     
@@ -488,28 +479,7 @@
   </url>
   
   <url>
-    <loc>https://crazyzhang.cn/tags/%E8%BE%85%E5%8A%A9%E9%A3%8E%E9%99%A9%E9%A2%84%E8%AD%A6/</loc>
-    <lastmod>2023-07-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://crazyzhang.cn/tags/%E5%B0%8F%E5%8A%A9%E6%89%8B%E7%89%88%E6%9C%AC%E4%BA%AE%E7%82%B9/</loc>
-    <lastmod>2023-07-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://crazyzhang.cn/tags/%E5%B0%81%E5%8F%B7%E5%8E%9F%E7%90%86/</loc>
-    <lastmod>2023-07-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://crazyzhang.cn/tags/Kiddion%E8%84%9A%E6%9C%AC/</loc>
     <lastmod>2023-07-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -544,6 +514,13 @@
   </url>
   
   <url>
+    <loc>https://crazyzhang.cn/tags/Kiddion%E8%84%9A%E6%9C%AC/</loc>
+    <lastmod>2023-07-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://crazyzhang.cn/tags/%E7%BA%BF%E4%B8%8A%E6%A8%A1%E5%BC%8F/</loc>
     <lastmod>2023-07-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -552,6 +529,13 @@
   
   <url>
     <loc>https://crazyzhang.cn/tags/%E4%BF%AE%E6%94%B9%E6%80%A7%E5%88%AB/</loc>
+    <lastmod>2023-07-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://crazyzhang.cn/tags/%E6%8D%8F%E8%84%B8%E6%95%B0%E6%8D%AE/</loc>
     <lastmod>2023-07-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -572,6 +556,20 @@
   </url>
   
   <url>
+    <loc>https://crazyzhang.cn/tags/%E5%85%B6%E4%BB%96/</loc>
+    <lastmod>2023-07-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://crazyzhang.cn/tags/%E7%A7%BB%E9%99%A4%E6%81%B6%E6%84%8F%E7%8E%A9%E5%AE%B6/</loc>
+    <lastmod>2023-07-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://crazyzhang.cn/tags/%E8%BD%A6%E5%8F%8B%E4%BC%9A/</loc>
     <lastmod>2023-07-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -580,13 +578,6 @@
   
   <url>
     <loc>https://crazyzhang.cn/tags/%E7%AD%89%E7%BA%A7/</loc>
-    <lastmod>2023-07-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://crazyzhang.cn/tags/%E7%A7%BB%E9%99%A4%E6%81%B6%E6%84%8F%E7%8E%A9%E5%AE%B6/</loc>
     <lastmod>2023-07-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -607,21 +598,7 @@
   </url>
   
   <url>
-    <loc>https://crazyzhang.cn/tags/%E6%8D%8F%E8%84%B8%E6%95%B0%E6%8D%AE/</loc>
-    <lastmod>2023-07-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://crazyzhang.cn/tags/%E5%BF%AB%E9%80%9F%E8%B5%9A%E9%92%B1/</loc>
-    <lastmod>2023-07-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://crazyzhang.cn/tags/%E5%85%B6%E4%BB%96/</loc>
     <lastmod>2023-07-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -658,14 +635,14 @@
   </url>
   
   <url>
-    <loc>https://crazyzhang.cn/categories/kiddion/</loc>
+    <loc>https://crazyzhang.cn/categories/gtahax/</loc>
     <lastmod>2023-07-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://crazyzhang.cn/categories/gtahax/</loc>
+    <loc>https://crazyzhang.cn/categories/kiddion/</loc>
     <lastmod>2023-07-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
