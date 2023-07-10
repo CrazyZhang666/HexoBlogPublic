@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://crazyzhang.cn/risk/index.html</loc>
+    
+    <lastmod>2023-07-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://crazyzhang.cn/discord/index.html</loc>
     
     <lastmod>2023-07-10</lastmod>
@@ -41,15 +50,6 @@
     <loc>https://crazyzhang.cn/gta5/6666.html</loc>
     
     <lastmod>2023-07-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://crazyzhang.cn/risk/index.html</loc>
-    
-    <lastmod>2023-07-09</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
