@@ -326,15 +326,6 @@
   </url>
   
   <url>
-    <loc>https://crazyzhang.cn/stat/statis.html</loc>
-    
-    <lastmod>2022-02-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://crazyzhang.cn/online/skill.html</loc>
     
     <lastmod>2022-02-08</lastmod>
@@ -353,7 +344,7 @@
   </url>
   
   <url>
-    <loc>https://crazyzhang.cn/online/1a59.html</loc>
+    <loc>https://crazyzhang.cn/online/ff97.html</loc>
     
     <lastmod>2022-02-08</lastmod>
     
@@ -362,7 +353,16 @@
   </url>
   
   <url>
-    <loc>https://crazyzhang.cn/online/ff97.html</loc>
+    <loc>https://crazyzhang.cn/stat/statis.html</loc>
+    
+    <lastmod>2022-02-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://crazyzhang.cn/online/1a59.html</loc>
     
     <lastmod>2022-02-08</lastmod>
     
@@ -424,13 +424,6 @@
   
   <url>
     <loc>https://crazyzhang.cn/tags/BincoHax%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2023-09-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://crazyzhang.cn/tags/Kiddion%E8%84%9A%E6%9C%AC/</loc>
     <lastmod>2023-09-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -521,7 +514,7 @@
   </url>
   
   <url>
-    <loc>https://crazyzhang.cn/tags/STAT%E4%BB%A3%E7%A0%81/</loc>
+    <loc>https://crazyzhang.cn/tags/Kiddion%E8%84%9A%E6%9C%AC/</loc>
     <lastmod>2023-09-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -612,6 +605,13 @@
   </url>
   
   <url>
+    <loc>https://crazyzhang.cn/tags/STAT%E4%BB%A3%E7%A0%81/</loc>
+    <lastmod>2023-09-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://crazyzhang.cn/tags/YimMenu/</loc>
     <lastmod>2023-09-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -635,13 +635,6 @@
   </url>
   
   <url>
-    <loc>https://crazyzhang.cn/categories/kiddion/</loc>
-    <lastmod>2023-09-23</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://crazyzhang.cn/categories/gta5/</loc>
     <lastmod>2023-09-23</lastmod>
     <changefreq>weekly</changefreq>
@@ -656,7 +649,7 @@
   </url>
   
   <url>
-    <loc>https://crazyzhang.cn/categories/stat/</loc>
+    <loc>https://crazyzhang.cn/categories/kiddion/</loc>
     <lastmod>2023-09-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -664,6 +657,13 @@
   
   <url>
     <loc>https://crazyzhang.cn/categories/online/</loc>
+    <lastmod>2023-09-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://crazyzhang.cn/categories/stat/</loc>
     <lastmod>2023-09-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
