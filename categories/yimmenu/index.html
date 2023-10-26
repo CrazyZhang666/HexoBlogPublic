@@ -9,7 +9,7 @@
 <meta property="article:author" content="CrazyZhang">
 <meta property="article:tag" content="GTA5,小助手,线上小助手,GTA助手,GTA5助手,GTA5小助手,GTA5线上小助手">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://crazyzhang.cn/custom/img/avatar.png"><link rel="shortcut icon" href="/custom/img/favicon.ico"><link rel="canonical" href="https://crazyzhang.cn/categories/yimmenu/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//www.google-analytics.com" crossorigin=""/><link rel="preconnect" href="//hm.baidu.com"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="/pluginsSrc/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="/pluginsSrc/node-snackbar/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="/pluginsSrc/@fancyapps/ui/dist/fancybox/fancybox.css" media="print" onload="this.media='all'"><script async="async" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><script>(adsbygoogle = window.adsbygoogle || []).push({
+<meta name="twitter:image" content="https://crazyzhang.cn/custom/img/avatar.png"><link rel="shortcut icon" href="/custom/img/favicon.ico"><link rel="canonical" href="https://crazyzhang.cn/categories/yimmenu/index.html"><link rel="preconnect"/><link rel="preconnect" href="//www.google-analytics.com" crossorigin=""/><link rel="preconnect" href="//hm.baidu.com"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="/pluginsSrc/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="/pluginsSrc/node-snackbar/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="/pluginsSrc/@fancyapps/ui/dist/fancybox/fancybox.css" media="print" onload="this.media='all'"><script async="async" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><script>(adsbygoogle = window.adsbygoogle || []).push({
   google_ad_client: 'ca-pub-4497596037058479',
   enable_page_level_ads: 'true'
 });</script><script>var _hmt = _hmt || [];
@@ -49,12 +49,10 @@ gtag('config', 'UA-144738275-1');
   },
   copyright: undefined,
   lightbox: 'fancybox',
-  Snackbar: {"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#49b1f5","bgDark":"#1f1f1f","position":"bottom-center"},
-  source: {
-    justifiedGallery: {
-      js: '/pluginsSrc/flickr-justified-gallery/dist/fjGallery.min.js',
-      css: '/pluginsSrc/flickr-justified-gallery/dist/fjGallery.css'
-    }
+  Snackbar: {"chs_to_cht":"你已切换为繁体中文","cht_to_chs":"你已切换为简体中文","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#49b1f5","bgDark":"#1f1f1f","position":"bottom-center"},
+  infinitegrid: {
+    js: '/pluginsSrc/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
   },
   isPhotoFigcaption: false,
   islazyload: true,
@@ -70,78 +68,71 @@ gtag('config', 'UA-144738275-1');
   isHome: false,
   isHighlightShrink: false,
   isToc: false,
-  postUpdate: '2023-10-24 17:34:19'
-}</script><noscript><style type="text/css">
-  #nav {
-    opacity: 1
-  }
-  .justified-gallery img {
-    opacity: 1
-  }
-
-  #recent-posts time,
-  #post-meta time {
-    display: inline !important
-  }
-</style></noscript><script>(win=>{
-    win.saveToLocal = {
-      set: function setWithExpiry(key, value, ttl) {
-        if (ttl === 0) return
-        const now = new Date()
-        const expiryDay = ttl * 86400000
-        const item = {
-          value: value,
-          expiry: now.getTime() + expiryDay,
+  postUpdate: '2023-10-26 21:30:48'
+}</script><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
         }
-        localStorage.setItem(key, JSON.stringify(item))
-      },
-
-      get: function getWithExpiry(key) {
-        const itemStr = localStorage.getItem(key)
-
-        if (!itemStr) {
-          return undefined
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
         }
-        const item = JSON.parse(itemStr)
-        const now = new Date()
 
-        if (now.getTime() > item.expiry) {
-          localStorage.removeItem(key)
-          return undefined
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
         }
-        return item.value
-      }
-    }
-  
-    win.getScript = url => new Promise((resolve, reject) => {
-      const script = document.createElement('script')
-      script.src = url
-      script.async = true
-      script.onerror = reject
-      script.onload = script.onreadystatechange = function() {
-        const loadState = this.readyState
-        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
-        script.onload = script.onreadystatechange = null
-        resolve()
-      }
-      document.head.appendChild(script)
-    })
-  
-    win.getCSS = (url,id = false) => new Promise((resolve, reject) => {
-      const link = document.createElement('link')
-      link.rel = 'stylesheet'
-      link.href = url
-      if (id) link.id = id
-      link.onerror = reject
-      link.onload = link.onreadystatechange = function() {
-        const loadState = this.readyState
-        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
-        link.onload = link.onreadystatechange = null
-        resolve()
-      }
-      document.head.appendChild(link)
-    })
-  
+        document.head.appendChild(link)
+      })
+    
       const asideStatus = saveToLocal.get('aside-status')
       if (asideStatus !== undefined) {
         if (asideStatus === 'hide') {
@@ -151,12 +142,12 @@ gtag('config', 'UA-144738275-1');
         }
       }
     
-    const detectApple = () => {
-      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
-        document.documentElement.classList.add('apple')
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
       }
-    }
-    detectApple()
+      detectApple()
     })(window)</script><link rel="stylesheet" href="/custom/main.css"><script async charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js?id=JiUAa6Ny9OXmHN39&ck=JiUAa6Ny9OXmHN39"></script><script async src="https://cdn.bootcdn.net/ajax/libs/sweetalert2/11.7.3/sweetalert2.all.min.js"></script><meta name="generator" content="Hexo 6.3.0"></head><body><script>window.paceOptions = {
   restartOnPushState: false
 }
@@ -164,7 +155,7 @@ gtag('config', 'UA-144738275-1');
 document.addEventListener('pjax:send', () => {
   Pace.restart()
 })
-</script><link rel="stylesheet" href="/pluginsSrc/pace-js/themes/blue/pace-theme-minimal.css"/><script src="/pluginsSrc/pace-js/pace.min.js"></script><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/custom/img/avatar.png" onerror="onerror=null;src='/custom/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">32</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">30</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">7</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/download/"><i class="fa-fw fas fa-download"></i><span> 下载</span></a></div><div class="menus_item"><a class="site-page" href="/change/"><i class="fa-fw fas fa-clipboard-list"></i><span> 日志</span></a></div><div class="menus_item"><a class="site-page" href="/runtime/"><i class="fa-fw fas fa-gear"></i><span> 运行库</span></a></div><div class="menus_item"><a class="site-page" href="/help/"><i class="fa-fw fas fa-question-circle"></i><span> 帮助</span></a></div><div class="menus_item"><a class="site-page" href="/risk/"><i class="fa-fw fas fa-shield-alt"></i><span> 风险</span></a></div><div class="menus_item"><a class="site-page" href="/discord/"><i class="fa-fw fab fa-discord"></i><span> 聊天</span></a></div><div class="menus_item"><a class="site-page" href="/bug/"><i class="fa-fw fas fa-bug"></i><span> 反馈</span></a></div><div class="menus_item"><a class="site-page" href="/comments/"><i class="fa-fw fas fa-comment-dots"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-user"></i><span> 关于</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="not-top-img fixed" id="page-header"><nav id="nav"><span id="blog-info"><a href="/" title="GTA5线上小助手"><span class="site-name">GTA5线上小助手</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/download/"><i class="fa-fw fas fa-download"></i><span> 下载</span></a></div><div class="menus_item"><a class="site-page" href="/change/"><i class="fa-fw fas fa-clipboard-list"></i><span> 日志</span></a></div><div class="menus_item"><a class="site-page" href="/runtime/"><i class="fa-fw fas fa-gear"></i><span> 运行库</span></a></div><div class="menus_item"><a class="site-page" href="/help/"><i class="fa-fw fas fa-question-circle"></i><span> 帮助</span></a></div><div class="menus_item"><a class="site-page" href="/risk/"><i class="fa-fw fas fa-shield-alt"></i><span> 风险</span></a></div><div class="menus_item"><a class="site-page" href="/discord/"><i class="fa-fw fab fa-discord"></i><span> 聊天</span></a></div><div class="menus_item"><a class="site-page" href="/bug/"><i class="fa-fw fas fa-bug"></i><span> 反馈</span></a></div><div class="menus_item"><a class="site-page" href="/comments/"><i class="fa-fw fas fa-comment-dots"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-user"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fas fa-bars fa-fw"></i></a></div></div></nav></header><main class="layout" id="content-inner"><div id="category"><div class="article-sort-title">分类 - yimmenu</div><div class="article-sort"><div class="article-sort-item year">2023</div><div class="article-sort-item"><a class="article-sort-item-img" href="/yimmenu/cache.html" title="解决YimMenu更新缓存崩溃问题"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic.rmb.bdstatic.com/bjh/e4b5b2dc77aa1e655aec0313b458716f.jpeg" alt="解决YimMenu更新缓存崩溃问题" onerror="this.onerror=null;this.src='/custom/img/404.jpg'"></a><div class="article-sort-item-info"><div class="article-sort-item-time"><i class="far fa-calendar-alt"></i><time class="post-meta-date-created" datetime="2023-07-11T10:00:00.000Z" title="发表于 2023-07-11 18:00:00">2023-07-11</time></div><a class="article-sort-item-title" href="/yimmenu/cache.html" title="解决YimMenu更新缓存崩溃问题">解决YimMenu更新缓存崩溃问题</a></div></div><div class="article-sort-item"><a class="article-sort-item-img" href="/yimmenu/docs.html" title="YimMenu简单使用指南"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic.rmb.bdstatic.com/bjh/00e3e4249bd2f96fd90a44bd8a0e684f.jpeg" alt="YimMenu简单使用指南" onerror="this.onerror=null;this.src='/custom/img/404.jpg'"></a><div class="article-sort-item-info"><div class="article-sort-item-time"><i class="far fa-calendar-alt"></i><time class="post-meta-date-created" datetime="2023-02-04T12:00:00.000Z" title="发表于 2023-02-04 20:00:00">2023-02-04</time></div><a class="article-sort-item-title" href="/yimmenu/docs.html" title="YimMenu简单使用指南">YimMenu简单使用指南</a></div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/custom/img/avatar.png" onerror="this.onerror=null;this.src='/custom/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">CrazyZhang</div><div class="author-info__description">一个完全免费的GTA5线上模式小工具</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">32</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">30</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">7</div></a></div><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/CrazyZhang666/GTA5OnlineTools" rel="external nofollow noreferrer" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="https://discord.gg/7GuNzajfhD" rel="external nofollow noreferrer" target="_blank" title="加入Discord"><i class="fab fa-discord"></i></a><a class="social-icon" href="https://github.com/CrazyZhang666/GTA5OnlineTools/issues" rel="external nofollow noreferrer" target="_blank" title="报告bug"><i class="fas fa-bug"></i></a><a class="social-icon" href="https://github.com/CrazyZhang666/GTA5OnlineTools/releases" rel="external nofollow noreferrer" target="_blank" title="下载更新"><i class="fas fa-cloud-download-alt"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">如果您觉得小助手这个软件对你有帮助，可以 <span class="inline-tag blue">帮忙请点一点</span> 网站上的 <span class="inline-tag red">谷歌广告</span> ，以帮助作者把这个软件做的更好，感谢大家的支持 😊 <br><a class="google-ads-link" href="https://crazyzhang.cn/gta5/googleads.html">⭐ 点我了解如何解除广告屏蔽 ⭐</a></div></div><div class="sticky_layout"><div class="card-widget ads-wrap"><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-4497596037058479" data-ad-slot="9703475295" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div><div class="card-widget" id="card-newest-comments"><div class="item-headline"><i class="fas fa-comment-dots"></i><span>最新评论</span></div><div class="aside-list"><span>正在加载中...</span></div></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">32</div></div><div class="webinfo-item"><div class="item-name">已运行时间 :</div><div class="item-count" id="runtimeshow" data-publishDate="2018-11-07T16:00:00.000Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总字数 :</div><div class="item-count">14.6k</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2023-10-24T09:34:19.161Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2018 - 2023 By CrazyZhang</div><div class="footer_custom_text"><div class="github-badge"><a rel="license external nofollow noreferrer"href="https://hexo.io/"target="_blank"title="由 Hexo 强力驱动"><span class="badge-subject">Powered</span><span class="badge-value bg-blue">Hexo</span></a></div><div class="github-badge"><a rel="license external nofollow noreferrer"href="https://butterfly.js.org/"target="_blank"title="站点使用 Butterfly 主题"><span class="badge-subject">Theme</span><span class="badge-value bg-green">Butterfly</span></a></div><div class="github-badge"><a rel="license external nofollow noreferrer"href="https://www.Cloudflare.com/"target="_blank"title="Cloudflare 提供 CDN 加速服务"><span class="badge-subject">CDN</span><span class="badge-value bg-orange">Cloudflare</span></a></div><div class="github-badge"><a rel="license external nofollow noreferrer"href="https://creativecommons.org/licenses/by-nc-sa/4.0/"target="_blank"title="本站点采用知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议进行许可"><span class="badge-subject"><i class="fa fa-copyright"></i></span><span class="badge-value bg-red">BY-NC-SA 4.0</span></a></div><div class="github-badge"><a rel="license external nofollow noreferrer"href="https://996.icu/"target="_blank"title="支持 996.ICU"><span class="badge-subject">Link</span><span class="badge-value bg-violet">996.ICU</span></a></div></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/pluginsSrc/@fancyapps/ui/dist/fancybox/fancybox.umd.js"></script><script src="/pluginsSrc/instant.page/instantpage.js" type="module"></script><script src="/pluginsSrc/vanilla-lazyload/dist/lazyload.iife.min.js"></script><script src="/pluginsSrc/node-snackbar/dist/snackbar.min.js"></script><div class="js-pjax"></div><script>window.addEventListener('load', () => {
+</script><link rel="stylesheet" href="/pluginsSrc/pace-js/themes/blue/pace-theme-minimal.css"/><script src="/pluginsSrc/pace-js/pace.min.js"></script><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/custom/img/avatar.png" onerror="onerror=null;src='/custom/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">32</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">30</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">7</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/download/"><i class="fa-fw fas fa-download"></i><span> 下载</span></a></div><div class="menus_item"><a class="site-page" href="/change/"><i class="fa-fw fas fa-clipboard-list"></i><span> 日志</span></a></div><div class="menus_item"><a class="site-page" href="/runtime/"><i class="fa-fw fas fa-gear"></i><span> 运行库</span></a></div><div class="menus_item"><a class="site-page" href="/help/"><i class="fa-fw fas fa-question-circle"></i><span> 帮助</span></a></div><div class="menus_item"><a class="site-page" href="/risk/"><i class="fa-fw fas fa-shield-alt"></i><span> 风险</span></a></div><div class="menus_item"><a class="site-page" href="/discord/"><i class="fa-fw fab fa-discord"></i><span> 聊天</span></a></div><div class="menus_item"><a class="site-page" href="/bug/"><i class="fa-fw fas fa-bug"></i><span> 反馈</span></a></div><div class="menus_item"><a class="site-page" href="/comments/"><i class="fa-fw fas fa-comment-dots"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-user"></i><span> 关于</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="not-top-img fixed" id="page-header"><nav id="nav"><span id="blog-info"><a href="/" title="GTA5线上小助手"><span class="site-name">GTA5线上小助手</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/download/"><i class="fa-fw fas fa-download"></i><span> 下载</span></a></div><div class="menus_item"><a class="site-page" href="/change/"><i class="fa-fw fas fa-clipboard-list"></i><span> 日志</span></a></div><div class="menus_item"><a class="site-page" href="/runtime/"><i class="fa-fw fas fa-gear"></i><span> 运行库</span></a></div><div class="menus_item"><a class="site-page" href="/help/"><i class="fa-fw fas fa-question-circle"></i><span> 帮助</span></a></div><div class="menus_item"><a class="site-page" href="/risk/"><i class="fa-fw fas fa-shield-alt"></i><span> 风险</span></a></div><div class="menus_item"><a class="site-page" href="/discord/"><i class="fa-fw fab fa-discord"></i><span> 聊天</span></a></div><div class="menus_item"><a class="site-page" href="/bug/"><i class="fa-fw fas fa-bug"></i><span> 反馈</span></a></div><div class="menus_item"><a class="site-page" href="/comments/"><i class="fa-fw fas fa-comment-dots"></i><span> 留言板</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-user"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fas fa-bars fa-fw"></i></a></div></div></nav></header><main class="layout" id="content-inner"><div id="category"><div class="article-sort-title">分类 - yimmenu</div><div class="article-sort"><div class="article-sort-item year">2023</div><div class="article-sort-item"><a class="article-sort-item-img" href="/yimmenu/cache.html" title="解决YimMenu更新缓存崩溃问题"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic.rmb.bdstatic.com/bjh/ccfb9a6e3051c9bc1c924065c8b7402c.jpeg" alt="解决YimMenu更新缓存崩溃问题" onerror="this.onerror=null;this.src='/custom/img/404.jpg'"></a><div class="article-sort-item-info"><div class="article-sort-item-time"><i class="far fa-calendar-alt"></i><time class="post-meta-date-created" datetime="2023-07-11T10:00:00.000Z" title="发表于 2023-07-11 18:00:00">2023-07-11</time></div><a class="article-sort-item-title" href="/yimmenu/cache.html" title="解决YimMenu更新缓存崩溃问题">解决YimMenu更新缓存崩溃问题</a></div></div><div class="article-sort-item"><a class="article-sort-item-img" href="/yimmenu/docs.html" title="YimMenu简单使用指南"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://pic.rmb.bdstatic.com/bjh/58d74295129af7c7e388438eef0e736b.jpeg" alt="YimMenu简单使用指南" onerror="this.onerror=null;this.src='/custom/img/404.jpg'"></a><div class="article-sort-item-info"><div class="article-sort-item-time"><i class="far fa-calendar-alt"></i><time class="post-meta-date-created" datetime="2023-02-04T12:00:00.000Z" title="发表于 2023-02-04 20:00:00">2023-02-04</time></div><a class="article-sort-item-title" href="/yimmenu/docs.html" title="YimMenu简单使用指南">YimMenu简单使用指南</a></div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/custom/img/avatar.png" onerror="this.onerror=null;this.src='/custom/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">CrazyZhang</div><div class="author-info__description">一个完全免费的GTA5线上模式小工具</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">32</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">30</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">7</div></a></div><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/CrazyZhang666/GTA5OnlineTools" rel="external nofollow noreferrer" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="https://discord.gg/7GuNzajfhD" rel="external nofollow noreferrer" target="_blank" title="加入Discord"><i class="fab fa-discord"></i></a><a class="social-icon" href="https://github.com/CrazyZhang666/GTA5OnlineTools/issues" rel="external nofollow noreferrer" target="_blank" title="报告bug"><i class="fas fa-bug"></i></a><a class="social-icon" href="https://github.com/CrazyZhang666/GTA5OnlineTools/releases" rel="external nofollow noreferrer" target="_blank" title="下载更新"><i class="fas fa-cloud-download-alt"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">如果您觉得小助手这个软件对你有帮助，可以 <span class="inline-tag blue">帮忙请点一点</span> 网站上的 <span class="inline-tag red">谷歌广告</span> ，以帮助作者把这个软件做的更好，感谢大家的支持 😊 <br><a class="google-ads-link" href="https://crazyzhang.cn/gta5/googleads.html">⭐ 点我了解如何解除广告屏蔽 ⭐</a></div></div><div class="sticky_layout"><div class="card-widget ads-wrap"><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-4497596037058479" data-ad-slot="9703475295" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div><div class="card-widget" id="card-newest-comments"><div class="item-headline"><i class="fas fa-comment-dots"></i><span>最新评论</span></div><div class="aside-list"><span>正在加载中...</span></div></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">32</div></div><div class="webinfo-item"><div class="item-name">已运行时间 :</div><div class="item-count" id="runtimeshow" data-publishDate="2018-11-07T16:00:00.000Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总字数 :</div><div class="item-count">14.6k</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2023-10-26T13:30:48.104Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2018 - 2023 By CrazyZhang</div><div class="footer_custom_text"><div class="github-badge"><a rel="license external nofollow noreferrer"href="https://hexo.io/"target="_blank"title="由 Hexo 强力驱动"><span class="badge-subject">Powered</span><span class="badge-value bg-blue">Hexo</span></a></div><div class="github-badge"><a rel="license external nofollow noreferrer"href="https://butterfly.js.org/"target="_blank"title="站点使用 Butterfly 主题"><span class="badge-subject">Theme</span><span class="badge-value bg-green">Butterfly</span></a></div><div class="github-badge"><a rel="license external nofollow noreferrer"href="https://www.Cloudflare.com/"target="_blank"title="Cloudflare 提供 CDN 加速服务"><span class="badge-subject">CDN</span><span class="badge-value bg-orange">Cloudflare</span></a></div><div class="github-badge"><a rel="license external nofollow noreferrer"href="https://creativecommons.org/licenses/by-nc-sa/4.0/"target="_blank"title="本站点采用知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议进行许可"><span class="badge-subject"><i class="fa fa-copyright"></i></span><span class="badge-value bg-red">BY-NC-SA 4.0</span></a></div><div class="github-badge"><a rel="license external nofollow noreferrer"href="https://996.icu/"target="_blank"title="支持 996.ICU"><span class="badge-subject">Link</span><span class="badge-value bg-violet">996.ICU</span></a></div></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/pluginsSrc/@fancyapps/ui/dist/fancybox/fancybox.umd.js"></script><script src="/pluginsSrc/instant.page/instantpage.js" type="module"></script><script src="/pluginsSrc/vanilla-lazyload/dist/lazyload.iife.min.js"></script><script src="/pluginsSrc/node-snackbar/dist/snackbar.min.js"></script><div class="js-pjax"></div><script>window.addEventListener('load', () => {
   const changeContent = (content) => {
     if (content === '') return content
 
@@ -264,11 +255,11 @@ var pjax = new Pjax({
 
 document.addEventListener('pjax:send', function () {
 
-  // removeEventListener scroll 
-  window.tocScrollFn && window.removeEventListener('scroll', window.tocScrollFn)
-  window.scrollCollect && window.removeEventListener('scroll', scrollCollect)
+  // removeEventListener
+  btf.removeGlobalFnEvent('pjax')
+  btf.removeGlobalFnEvent('themeChange')
 
-  document.getElementById('rightside').style.cssText = "opacity: ''; transform: ''"
+  document.getElementById('rightside').classList.remove('rightside-show')
   
   if (window.aplayers) {
     for (let i = 0; i < window.aplayers.length; i++) {
@@ -314,8 +305,8 @@ document.addEventListener('pjax:complete', function () {
   typeof Prism === 'object' && Prism.highlightAll()
 })
 
-document.addEventListener('pjax:error', (e) => {
+document.addEventListener('pjax:error', e => {
   if (e.request.status === 404) {
     pjax.loadUrl('/404.html')
   }
-})</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div class="no-result" id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js"></script></div></div></body></html>
+})</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js"></script></div></div></body></html>
