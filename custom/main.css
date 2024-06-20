@@ -227,7 +227,7 @@ div#category {
 
 /*------------------- 分割线 -------------------*/
 
-/* 解除广告屏蔽教程连接样式 */
-.google-ads-link {
+/* 卡片文档超链接样式 */
+.card-announcement-link {
     color: dodgerblue;
 }
